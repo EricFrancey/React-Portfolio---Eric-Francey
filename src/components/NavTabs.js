@@ -1,6 +1,11 @@
 import React from 'react';
+import ReactPlayer from "react-player"
 
 
+const musicStyle = {
+  // display: "none"
+  backgroundSize: "60px 120px"
+}
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className =" bg-dark">
@@ -39,7 +44,12 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
         </ul>
-     </div>
+        <div>
+          <ReactPlayer style={musicStyle}
+          url="https://soundcloud.com/game-game-game/jungle-japes-donkey-kong-64-soundtrack?si=0461d412c75e44a383110296ce99786a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+          />
+        </div>
+     </div>  
   );
 }
 

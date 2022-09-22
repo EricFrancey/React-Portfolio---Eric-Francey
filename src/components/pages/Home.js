@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+
 const image = require('../../assets/profilephoto.jpg');
 
 export default function Resume() {
