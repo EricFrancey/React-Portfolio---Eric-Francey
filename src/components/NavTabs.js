@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactPlayer from "react-player"
-
+import "./playerStyle.css"
 
 const musicStyle = {
-  // display: "none"
   backgroundSize: "60px 120px"
 }
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className =" bg-dark">
+        <div className="player-wrapper">
+          <ReactPlayer style={musicStyle}
+            url="https://soundcloud.com/game-game-game/jungle-japes-donkey-kong-64-soundtrack?si=0461d412c75e44a383110296ce99786a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            className="react-player"
+            playing
+            width="100%"
+            height="100px"
+            controls={false}
+          />
+        </div>
       <p> Eric Francey</p>
         <ul className="nav nav-tabs">
           <li className="nav-item">
@@ -44,11 +53,6 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
         </ul>
-        <div>
-          <ReactPlayer style={musicStyle}
-          url="https://soundcloud.com/game-game-game/jungle-japes-donkey-kong-64-soundtrack?si=0461d412c75e44a383110296ce99786a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-          />
-        </div>
      </div>  
   );
 }
