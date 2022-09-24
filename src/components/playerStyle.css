@@ -1,7 +1,7 @@
 .player-wrapper {
     position: relative;
 }
-  
+
 .react-player {
     position: relative;
     top: 0;
@@ -9,6 +9,9 @@
 }
 
 .spacer {
-margin-top: 100px
+    margin-top: 100px
+}
 
+.hidden {
+    display:none;
 }

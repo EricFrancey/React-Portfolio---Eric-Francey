@@ -5,6 +5,8 @@ import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
+import ReactPlayer from './Player';
+
 const styles = {
   backgroundColour: 'red'
 };
@@ -32,6 +34,8 @@ export default function PortfolioContainer() {
 
   return (
     <div style = {styles}>
+      <ReactPlayer></ReactPlayer>
+
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

@@ -1,20 +1,14 @@
 .profile-image {
-
+    margin-left: 30%;
     filter: sepia();
 }
 
 .background {
-
-    background-color: red;
+    background-color:dimgrey;
+    margin-left: 30%;
 }
-
 
 .intro-blurb {
-
     font-size: 40px;
 }
-/* .profile-image {
-    margin-left: '1rem';
-    width: '250px';
-    height: '250px'
-} */
+
