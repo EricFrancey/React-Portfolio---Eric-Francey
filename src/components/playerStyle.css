@@ -15,3 +15,8 @@
 .hidden {
     display:none;
 }
+
+.showing {
+
+    display: block
+}

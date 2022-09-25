@@ -6,12 +6,13 @@ import githubCardImg from "../.././assets/github.jpg";
 import cardimg from "../.././assets/fogbeach.png"
 
 export default function Projects() {
+  let githubCSS = "invert";
   return (
     <div>
       <h1>Projects</h1>
         <div className='grid-container bg-dark'>
           <Card className='grid-item' style={{ width: '30rem'}}>
-            <Card.Img className='invert' variant="top" src={githubCardImg} />
+            <Card.Img className={githubCSS} variant="top" src={githubCardImg} />
             <Card.Body>
             <Card.Title  className='github'>GitHub</Card.Title>
             <Card.Text>
