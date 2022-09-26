@@ -12,13 +12,13 @@ export default function Resume() {
   };
 
   return (
-    <div className='row'>
+    <div>
       <h1 className='background'>Eric George Zytaruk Francey</h1>
       <div className='profile-image'>
         <img className = 'img-thumbnail m-5' style = {styles} src = {image} alt = "profile"></img>
       </div>
       <p className = 'intro-blurb ml-3'>
-        Hey! I'm Eric! While you browse, choose some music from the top bar (new songs daily).
+        Hey! I'm Eric! Check out my projects page.
       </p>
   </div> 
   );  

@@ -42,12 +42,11 @@ function Player() {
     }
   },[isPlayerActive]);
 
-
   return (
     <div className ="bg-dark">
       <button onClick={togglePlayerActive}>{isPlayerActive ? "Hide Music Player" : "Show Music Player"}</button>
       <div id = "player-switch-id" className ={isPlayerActive ? "showing" : "hidden"}>
-        <div className="player-wrapper">
+        <div className="player-wrapper animated shake">
           <ReactPlayer
             url={currentURL}
             className="react-player"
