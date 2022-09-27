@@ -2,8 +2,11 @@ import "./Projects.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React, { useState, useEffect, useRef } from 'react';
-import githubCardImg from "../.././assets/github.jpg";
+import githubCardImg from "../.././assets/github2.jpg";
 import cardimg from "../.././assets/fogbeach.png"
+import rhythmCard from "../.././assets/rhythmrocks.jpg";
+import visionCard from "../.././assets/visiontest.jpg"
+import zooCard from "../.././assets/zoologic.jpg";
 
 
 
@@ -31,41 +34,41 @@ export default function Projects() {
           </Card>
 
           <Card className='grid-item following-card'>
-            <Card.Img variant="top" src={cardimg} />
+            <Card.Img variant="top" src={rhythmCard} />
             <Card.Body>
-            <Card.Title>Rhythm Rocks</Card.Title>
-            <Card.Text>
-              Drum sequencer written in vanilla HTML, CSS, and JavaScript. Set your drum pattern and speed, save your own presets, and more!
-            </Card.Text>
               <a href="https://ericfrancey.github.io/Rhythm-Finder/" target="_blank" rel="noreferrer">
                 <Button variant="success">Rhythm Rocks</Button>
               </a>
+            <Card.Text>
+              Drum sequencer written in vanilla HTML, CSS, and JavaScript. Set your drum pattern and speed, save your own presets, and more!
+            </Card.Text>
+ 
             </Card.Body>
           </Card>
 
-          <Card className='grid-item' style={{ width: '24rem', height: '36rem' }}>
-            <Card.Img variant="top" src={cardimg} />
+          <Card className='grid-item following-card'>
+            <Card.Img variant="top" src={visionCard} />
             <Card.Body>
-            <Card.Title>Vision Test</Card.Title>
-            <Card.Text>
-              Test your vision with a dynamic perspective image - use classic vision test images or drag in your own photos.
-            </Card.Text>
               <a href="https://ericfrancey.github.io/drag-drop-photo-editor/" target="_blank" rel="noreferrer">
                 <Button variant="success">Vision Test</Button>
               </a>
+            <Card.Text>
+              Test your vision with a dynamic perspective image - use classic vision test images or drag in your own photos.
+            </Card.Text>
+            
             </Card.Body>
           </Card>
 
-          <Card className='grid-item' style={{ width: '24rem', height: '36rem' }}>
-            <Card.Img variant="top" src={cardimg} />
+          <Card className='grid-item following-card'>
+            <Card.Img variant="top" src={zooCard} />
             <Card.Body>
-            <Card.Title>ZooLogic</Card.Title>
-            <Card.Text>
-              Designed to help conservation and documentation efforts. A full-stack application built with React.js and GraphQL. 
-            </Card.Text>
               <a href="https://ericfrancey.github.io/ZooLogic/" target="_blank" rel="noreferrer">
                 <Button variant="success">ZooLogic</Button>
               </a>
+            <Card.Text>
+              Designed to help conservation and documentation efforts. A full-stack application built with React.js and GraphQL. 
+            </Card.Text>
+           
             </Card.Body>
           </Card>
         </div>

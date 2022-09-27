@@ -16,8 +16,8 @@
     color:white;
     font-family: "Lucida Console", "Courier New", monospace;
     font: "Courier New";
-    height: 4em;
-    width: 40%;
+    height: 2em;
+    width: 50em;
     display: block;
     content: "";
     font-size: 8px;
@@ -46,16 +46,16 @@
 }
 
 .invert {
-    filter:invert(100%) blur(1px);
+    filter:invert(100%);
 }
 
 .top-card {
-width: 30rem
+width: 26rem
 }
 
 .following-card {
-width: 24rem;
-height: 36rem
+width: 18rem;
+height: 28rem
 
 }
 .curious {
