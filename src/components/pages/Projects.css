@@ -58,6 +58,25 @@ width: 24rem;
 height: 36rem
 
 }
+.curious {
+    -moz-transform:    scaleX(-1); /* Gecko */
+    -o-transform:      scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Webkit */
+    transform:         scaleX(-1); /* Standard */
+    filter: FlipH;                 /* IE 6/7/8 */
+}
+
+.not-curious {
+
+    -moz-transform:    scaleX(-1); /* Gecko */
+    -o-transform:      scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Webkit */
+    transform:         scaleX(-1); /* Standard */
+    filter: FlipH;                 /* IE 6/7/8 */
+    background-color: grey;
+    font-size: 6px;
+    text-align: left;
+}
 
 @media only screen and (max-width: 768px) {
     .header {

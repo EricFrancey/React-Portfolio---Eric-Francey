@@ -1,14 +1,21 @@
-import React from 'react';
 import "./Projects.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import React, { useState, useEffect, useRef } from 'react';
 import githubCardImg from "../.././assets/github.jpg";
 import cardimg from "../.././assets/fogbeach.png"
 
+
+
+
 export default function Projects() {
+  const [isCurious, setCurious] = useState(false);
+  const toggleCurious = () => setCurious(!isCurious)
+
   return (
-    <div>
+    <div className = {isCurious ? "curious" : ""}>
       <h1 className='header'>Projects</h1>
+      <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>
         <div className='grid-container bg-dark'>
           <Card className='grid-item top-card invert'>
             <Card.Img variant="top" src={githubCardImg} />
