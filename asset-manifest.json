@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.c710ab89.css",
-    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.0f24f483.js",
+    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.913ec297.css",
+    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.6b13618b.js",
     "static/media/fogbeach.png": "/React-Portfolio---Eric-Francey/static/media/fogbeach.a247b471f3f382419476.png",
     "static/media/profilephoto.jpg": "/React-Portfolio---Eric-Francey/static/media/profilephoto.07c06147d04268d15680.jpg",
-    "static/media/github.jpg": "/React-Portfolio---Eric-Francey/static/media/github.e3c6666a434facd527f8.jpg",
+    "static/media/zoologic.jpg": "/React-Portfolio---Eric-Francey/static/media/zoologic.693e8a19c755faaf0e24.jpg",
+    "static/media/rhythmrocks.jpg": "/React-Portfolio---Eric-Francey/static/media/rhythmrocks.ce2b1b5bfde7911f00d2.jpg",
+    "static/media/visiontest.jpg": "/React-Portfolio---Eric-Francey/static/media/visiontest.b07ae0397eba1f72bbbf.jpg",
+    "static/media/github2.jpg": "/React-Portfolio---Eric-Francey/static/media/github2.5992d8a2fee6e8dc4ed7.jpg",
     "static/media/resume4.jpg": "/React-Portfolio---Eric-Francey/static/media/resume4.c781f53b41bb60b862fd.jpg",
     "static/media/resume1.jpg": "/React-Portfolio---Eric-Francey/static/media/resume1.a58c0f7a698bec7558e8.jpg",
     "static/media/resume5.jpg": "/React-Portfolio---Eric-Francey/static/media/resume5.a85f9971530ead27f4d9.jpg",
     "static/media/resume3.jpg": "/React-Portfolio---Eric-Francey/static/media/resume3.4ba390c79a0ea2e52d54.jpg",
     "static/media/resume2.jpg": "/React-Portfolio---Eric-Francey/static/media/resume2.ebf53e1e0255e0fd4207.jpg",
     "index.html": "/React-Portfolio---Eric-Francey/index.html",
-    "main.c710ab89.css.map": "/React-Portfolio---Eric-Francey/static/css/main.c710ab89.css.map",
-    "main.0f24f483.js.map": "/React-Portfolio---Eric-Francey/static/js/main.0f24f483.js.map"
+    "main.913ec297.css.map": "/React-Portfolio---Eric-Francey/static/css/main.913ec297.css.map",
+    "main.6b13618b.js.map": "/React-Portfolio---Eric-Francey/static/js/main.6b13618b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c710ab89.css",
-    "static/js/main.0f24f483.js"
+    "static/css/main.913ec297.css",
+    "static/js/main.6b13618b.js"
   ]
 }
