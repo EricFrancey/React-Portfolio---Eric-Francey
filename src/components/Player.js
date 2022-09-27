@@ -6,6 +6,9 @@ function Player() {
 
   const [isPlayerActive, setPlayerActive] = useState(false);
   const togglePlayerActive = () => setPlayerActive(!isPlayerActive)
+
+  const [isDancing, setDancing] = useState(false);
+  const toggleDancing = () => setDancing(!isDancing)
   // const switchID = document.querySelector("#player-switch-id");
 
   const musicURLs = [
@@ -58,8 +61,9 @@ function Player() {
   return (
     <div className ="bg-dark loading-message">
       <button onClick={togglePlayerActive}>{isPlayerActive ? "Hide Music Player" : "Show Music Player"}</button>
+      <button onClick={toggleDancing}>{isDancing ? "Dancing" : "Dance"}</button>
       <div id = "player-switch-id" className ={isPlayerActive ? "showing" : "hidden"}>
-        <div className="player-wrapper animated1 shake">
+        <div className={isDancing ? "player-wrapper animated1 shake" : "player-wrapper"}>
           <ReactPlayer
             url={musicURLs[0]}
             className="react-player"
@@ -69,7 +73,7 @@ function Player() {
             controls={false}
           />
         </div>
-        <div className="player-wrapper animated2 shake">
+        <div className={isDancing ? "player-wrapper animated2 shake" : "player-wrapper"}>
           <ReactPlayer
             url={musicURLs[1]}
             className="react-player"
@@ -79,7 +83,7 @@ function Player() {
             controls={false}
           />
         </div>
-        <div className="player-wrapper animated3 shake">
+        <div className={isDancing ? "player-wrapper animated3 shake" : "player-wrapper"}>
           <ReactPlayer
             url={musicURLs[2]}
             className="react-player"

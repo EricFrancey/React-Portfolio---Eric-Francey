@@ -1,17 +1,38 @@
 import React from 'react';
 import './Resume.css';
 
-const styles = {
-  backgroundColour: 'red'
-};
+const resume1 = require('../../assets/resume1.jpg');
+const resume2 = require('../../assets/resume2.jpg');
+const resume3 = require('../../assets/resume3.jpg');
+const resume4 = require('../../assets/resume4.jpg');
+const resume5 = require('../../assets/resume5.jpg');
 
 export default function Resume() {
+
   return (
-    <div style = {styles}>
+    <div>
       <h1 className='header'>Resume</h1>
-      <p>
-        Coming soon
-      </p>
-    </div>
+        <div className='resume-flex'>
+          <div>
+            <div className='resume1'>
+              <img className = 'img-thumbnail' src = {resume1} alt = "profile"></img>
+            </div>
+            <div className='resume1'>
+              <img className = 'img-thumbnail' src = {resume2} alt = "profile"></img>
+            </div>
+            <div className='resume1'>
+              <img className = 'img-thumbnail' src = {resume3} alt = "profile"></img>
+            </div>
+            <div className='resume1'>
+              <img className = 'img-thumbnail' src = {resume4} alt = "profile"></img>
+            </div>
+          </div>
+          <div>
+            <div className='resume5'>
+              <img className = 'img-thumbnail' src = {resume5} alt = "profile"></img>
+            </div>
+          </div>
+        </div>
+      </div>
   );
 }

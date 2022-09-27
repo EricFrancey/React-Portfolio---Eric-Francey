@@ -30,3 +30,52 @@
     transform:         scaleX(-1); /* Standard */
     filter: FlipH;                 /* IE 6/7/8 */
 }
+
+.resume-flex {
+
+    display:flex;
+    flex-direction:row;
+}
+
+
+.resume1 {
+margin-left: 10em;
+transition:all 1s ease-in
+
+}
+
+.resume1:hover{
+    transform: translate(-1rem, -1rem);
+    filter:invert(20%);
+    transition:all 1s ease-in
+
+}
+
+.resume5 {
+
+    margin-left:10em;
+    transition:all 1s ease-in
+}
+
+.resume5:hover {
+
+    transform: translate(-20rem, 20rem) scale(2);
+    transition:all 1s ease-in;
+    border-style:groove;
+    border-color: black;
+    box-shadow: 5px 10px #888888;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .resume-flex {
+        flex-direction: column;
+    }
+    .resume1 {
+        margin-left:1px
+    }
+    .resume5 {
+        margin-left:1px
+    }
+  
+}
