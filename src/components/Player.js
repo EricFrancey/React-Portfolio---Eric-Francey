@@ -63,7 +63,7 @@ function Player() {
           <ReactPlayer
             url={musicURLs[0]}
             className="react-player"
-            playing
+            // playing
             width="100%"
             height="70px"
             controls={false}
@@ -73,7 +73,7 @@ function Player() {
           <ReactPlayer
             url={musicURLs[1]}
             className="react-player"
-            playing
+            // playing
             width="100%"
             height="70px"
             controls={false}
@@ -83,7 +83,7 @@ function Player() {
           <ReactPlayer
             url={musicURLs[2]}
             className="react-player"
-            playing
+            // playing
             width="100%"
             height="70px"
             controls={false}
