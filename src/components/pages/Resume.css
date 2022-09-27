@@ -9,7 +9,7 @@
     border-style: solid;
     border-radius: 4%;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(11,92,189,1) 66%, rgba(9,47,121,0.7539390756302521) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(54,133,227,1) 66%, rgba(9,47,121,0.7539390756302521) 100%);
 }
 
 .header:after {
@@ -30,18 +30,3 @@
     transform:         scaleX(-1); /* Standard */
     filter: FlipH;                 /* IE 6/7/8 */
 }
-
-.profile-image {
-    margin-left: 30%;
-    filter: sepia();
-}
-
-.background {
-    background-color:dimgrey; 
-    margin-left: 30%;
-}
-
-.intro-blurb {
-    font-size: 40px;
-}
-
