@@ -19,6 +19,7 @@
     height: 4em;
     width: 40%;
     display: block;
+    content: "";
     font-size: 8px;
     float: right;
     background: rgb(2,0,36);
