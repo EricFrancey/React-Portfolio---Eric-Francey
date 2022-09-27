@@ -37,17 +37,90 @@
     flex-direction:row;
 }
 
-
-.resume1 {
-margin-left: 10em;
-transition:all 1s ease-in
-
+.resume-details1 {
+    display:none;
+    z-index: -1;
+    color: black;
+    transform: translate(20rem, -10rem);
+    transition:all 1s ease-in
+}
+.resume-details2 {
+    display:none;
+    color: red;
+    /* transform: translate(65rem, 21rem); */
+}
+.resume-details3 {
+    display:none;
+    color: red;
+    /* transform: translate(65rem, 21rem); */
+}
+.resume-details4 {
+    display:none;
+    color: red;
+    /* transform: translate(65rem, 21rem); */
+}
+.resume-details5 {
+    display:none;
+    color: red;
+    /* transform: translate(65rem, 21rem); */
 }
 
+.resume1 {
+    margin-left: 10em;
+    transition:all 1s ease-in
+}
+.resumeONE {
+    margin-left: 10em;
+    transition:all 1s ease-in
+}
+
+.resumeONE:hover{
+    transform: translate(40rem, -1rem);
+    filter:invert(20%);
+    transition:all 1s ease-in
+}
+
+.resumeONE:hover + .resume-details1 {
+    display:block;
+    position:fixed;
+    transition: all 1s ease-in
+
+}
 .resume1:hover{
     transform: translate(-1rem, -1rem);
     filter:invert(20%);
     transition:all 1s ease-in
+}
+
+.resume1:hover + .resume-details1 {
+    display:block;
+    position:fixed;
+    transition: all 1s ease-in
+
+}
+
+.resume1:hover + .resume-details2 {
+    display:block;
+    position:fixed;
+    transition: all 1s ease-in
+
+}
+.resume1:hover + .resume-details3 {
+    display:block;
+    position:fixed;
+    transition: all 1s ease-in
+
+}
+.resume1:hover + .resume-details4 {
+    display:block;
+    position:fixed;
+    transition: all 1s ease-in
+
+}
+.resume1:hover + .resume-details5 {
+    display:block;
+    position:fixed;
+    transition: all 1s ease-in
 
 }
 
@@ -65,6 +138,7 @@ transition:all 1s ease-in
     border-color: black;
     box-shadow: 5px 10px #888888;
 }
+
 
 @media only screen and (max-width: 768px) {
 
