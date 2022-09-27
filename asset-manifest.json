@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.a266f8e7.css",
-    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.b8110e97.js",
+    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.c710ab89.css",
+    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.0f24f483.js",
     "static/media/fogbeach.png": "/React-Portfolio---Eric-Francey/static/media/fogbeach.a247b471f3f382419476.png",
     "static/media/profilephoto.jpg": "/React-Portfolio---Eric-Francey/static/media/profilephoto.07c06147d04268d15680.jpg",
     "static/media/github.jpg": "/React-Portfolio---Eric-Francey/static/media/github.e3c6666a434facd527f8.jpg",
+    "static/media/resume4.jpg": "/React-Portfolio---Eric-Francey/static/media/resume4.c781f53b41bb60b862fd.jpg",
+    "static/media/resume1.jpg": "/React-Portfolio---Eric-Francey/static/media/resume1.a58c0f7a698bec7558e8.jpg",
+    "static/media/resume5.jpg": "/React-Portfolio---Eric-Francey/static/media/resume5.a85f9971530ead27f4d9.jpg",
+    "static/media/resume3.jpg": "/React-Portfolio---Eric-Francey/static/media/resume3.4ba390c79a0ea2e52d54.jpg",
+    "static/media/resume2.jpg": "/React-Portfolio---Eric-Francey/static/media/resume2.ebf53e1e0255e0fd4207.jpg",
     "index.html": "/React-Portfolio---Eric-Francey/index.html",
-    "main.a266f8e7.css.map": "/React-Portfolio---Eric-Francey/static/css/main.a266f8e7.css.map",
-    "main.b8110e97.js.map": "/React-Portfolio---Eric-Francey/static/js/main.b8110e97.js.map"
+    "main.c710ab89.css.map": "/React-Portfolio---Eric-Francey/static/css/main.c710ab89.css.map",
+    "main.0f24f483.js.map": "/React-Portfolio---Eric-Francey/static/js/main.0f24f483.js.map"
   },
   "entrypoints": [
-    "static/css/main.a266f8e7.css",
-    "static/js/main.b8110e97.js"
+    "static/css/main.c710ab89.css",
+    "static/js/main.0f24f483.js"
   ]
 }
