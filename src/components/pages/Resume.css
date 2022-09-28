@@ -139,11 +139,16 @@
     box-shadow: 5px 10px #888888;
 }
 
-
 @media only screen and (max-width: 768px) {
-
+    .image-thumbnail {
+        width:100%
+    }
     .resume-flex {
         flex-direction: column;
+        display:block;
+    }
+    .resumeONE {
+        margin-left:1px
     }
     .resume1 {
         margin-left:1px
