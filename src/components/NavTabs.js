@@ -3,8 +3,7 @@ import "./playerStyle.css"
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className =" bg-dark">
-      <p> Eric Francey</p>
+    <div className =" bg-dark spacer">
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <a

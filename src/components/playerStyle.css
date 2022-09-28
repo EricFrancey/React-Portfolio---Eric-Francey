@@ -9,7 +9,7 @@
 }
 
 .spacer {
-    margin-top: 100px
+    margin-top: 3px
 }
 
 .hidden {
@@ -21,6 +21,36 @@
     display: block
 }
 
+.rocks-button {
+   color:rgb(133, 224, 224);
+   font-family: 'Press Start 2P', cursive;
+   text-align: center;
+   border: 0.3rem;
+   border-color: black;
+   border-style: solid;
+   border-radius: 4%;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(11,92,189,1) 66%, rgba(9,47,121,0.7539390756302521) 100%);
+}
+
+.rocks-button:after {
+   color:white;
+   font-family: "Lucida Console", "Courier New", monospace;
+   font: "Courier New";
+   height: 2em;
+   width: 50em;
+   display: block;
+   content: "";
+   font-size: 8px;
+   float: right;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 10%, rgba(9,47,121,0.7539390756302521) 77%);
+   -moz-transform:    scaleX(-1); /* Gecko */
+   -o-transform:      scaleX(-1); /* Opera */
+   -webkit-transform: scaleX(-1); /* Webkit */
+   transform:         scaleX(-1); /* Standard */
+   filter: FlipH;                 /* IE 6/7/8 */
+}
 
 .animated1 { 
     background-repeat: no-repeat;
@@ -49,12 +79,6 @@
     animation: shake 4s infinite
  }
  
-
- /* .loading-message {
-    height: 2rem
-
- } */
-
  @-webkit-keyframes shake {
     0%, 100% {-webkit-transform: translateX(0);} 
     10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-5px);} 

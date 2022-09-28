@@ -1,6 +1,7 @@
 import ReactPlayer from "react-player"
 import "./playerStyle.css"
 import React, { useState, useEffect, useRef } from 'react';
+import Iframe from 'react-iframe'
 
 function Player() {
 
@@ -9,6 +10,9 @@ function Player() {
 
   const [isDancing, setDancing] = useState(false);
   const toggleDancing = () => setDancing(!isDancing)
+
+  const [isRocks, setRocks] = useState(false);
+  const toggleRocks = () => setRocks(!isRocks)
   // const switchID = document.querySelector("#player-switch-id");
 
   const musicURLs = [
@@ -32,12 +36,6 @@ function Player() {
     currentURL = musicURLs[0];
   }
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //       setLoading(false);
-  //    }, 3000);
-  //   },[]);
-    
   useEffect(() => {
 
     if (isPlayerActive === false) {
@@ -51,17 +49,12 @@ function Player() {
     }
   },[isPlayerActive]);
 
-
-  // if (isLoading) {
-  //   return (
-  //   <div className="bg-dark loading-message">Loading music player {console.log("loading state")}</div>
-  //   );
-  // }
-
   return (
     <div className ="bg-dark loading-message">
+
       <button onClick={togglePlayerActive}>{isPlayerActive ? "Hide Music Player" : "Show Music Player"}</button>
       <button onClick={toggleDancing}>{isDancing ? "Dancing" : "Dance"}</button>
+
       <div id = "player-switch-id" className ={isPlayerActive ? "showing" : "hidden"}>
         <div className={isDancing ? "player-wrapper animated1 shake" : "player-wrapper"}>
           <ReactPlayer
@@ -92,6 +85,21 @@ function Player() {
             height="70px"
             controls={false}
           />
+        </div>
+  
+        <button className="rocks-button" onClick={toggleRocks}>{isRocks ? "Hide Rhythm Rocks" : "Make your own beat with Rhythm Rocks"}</button>
+        
+        <div className={isRocks ? "showing rocks-button" : "hidden"}>
+          <div className="resume-flex">
+            <Iframe url="https://ericfrancey.github.io/Rhythm-Finder/"
+              width="32%"
+              height="844px"
+              id=""
+              className="scaled"
+              display="block"
+              position="relative"/>
+            <div className="player-rocks-info"> Rhythm Rocks! View this project's repo on the projects tab.</div>
+          </div>
         </div>
       </div>
     </div>     

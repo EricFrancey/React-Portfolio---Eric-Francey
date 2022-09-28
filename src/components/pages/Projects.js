@@ -8,9 +8,6 @@ import rhythmCard from "../.././assets/rhythmrocks.jpg";
 import visionCard from "../.././assets/visiontest.jpg"
 import zooCard from "../.././assets/zoologic.jpg";
 
-
-
-
 export default function Projects() {
   const [isCurious, setCurious] = useState(false);
   const toggleCurious = () => setCurious(!isCurious)
