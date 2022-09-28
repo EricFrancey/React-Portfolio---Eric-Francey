@@ -4,7 +4,7 @@ import './Contact.css';
 export default function Contact() {
   return (
     <div>
-      <h1 className='header'>Contact Me</h1>
+      <h1 className='header-contact'>Contact Me</h1>
       <div>
 <form action="/action_page.php">
 <label>First Name</label>

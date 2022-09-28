@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
-.header {
+.header-home {
     color:rgb(133, 224, 224);
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -10,10 +10,10 @@
     border-style: solid;
     border-radius: 4%;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(11,92,189,1) 66%, rgba(9,47,121,0.7539390756302521) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(0,81,176,1) 30%, rgba(9,47,121,0.7539390756302521) 100%);
 }
 
-.header:after {
+.header-home:after {
     color:white;
     font-family: "Lucida Console", "Courier New", monospace;
     font: "Courier New";
@@ -24,7 +24,7 @@
     font-size: 8px;
     float: right;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 10%, rgba(9,47,121,0.7539390756302521) 77%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(0,81,176,1) 30%, rgba(9,47,121,0.7539390756302521) 100%);
     -moz-transform:    scaleX(-1); /* Gecko */
     -o-transform:      scaleX(-1); /* Opera */
     -webkit-transform: scaleX(-1); /* Webkit */
@@ -33,7 +33,6 @@
 }
 
 .profile-image {
-    margin-left: 30%;
     filter: sepia();
 }
 

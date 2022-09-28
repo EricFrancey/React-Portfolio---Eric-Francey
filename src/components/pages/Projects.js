@@ -14,7 +14,7 @@ export default function Projects() {
 
   return (
     <div className = {isCurious ? "curious" : ""}>
-      <h1 className='header'>Projects</h1>
+      <h1 className='header-projects'>Projects</h1>
       <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>
         <div className='grid-container bg-dark'>
           <Card className='grid-item top-card invert'>

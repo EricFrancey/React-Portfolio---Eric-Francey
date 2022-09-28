@@ -11,7 +11,7 @@ export default function Resume() {
 
   return (
     <div>
-      <h1 className='header'>Resume</h1>
+      <h1 className='header-resume'>Resume</h1>
         <div className='resume-flex'>
           <div>
             <div className='resumeONE'>

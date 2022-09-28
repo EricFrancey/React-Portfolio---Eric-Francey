@@ -53,9 +53,10 @@ function Player() {
     <div className ="bg-dark loading-message">
 
       <button onClick={togglePlayerActive}>{isPlayerActive ? "Hide Music Player" : "Show Music Player"}</button>
-      <button onClick={toggleDancing}>{isDancing ? "Dancing" : "Dance"}</button>
-
+    
       <div id = "player-switch-id" className ={isPlayerActive ? "showing" : "hidden"}>
+
+        <button onClick={toggleDancing}>{isDancing ? "Dancing" : "Dance"}</button>
         <div className={isDancing ? "player-wrapper animated1 shake" : "player-wrapper"}>
           <ReactPlayer
             url={musicURLs[0]}
