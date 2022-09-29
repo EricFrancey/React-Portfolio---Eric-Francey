@@ -60,6 +60,23 @@
 
 }
 
+.thumb {
+    filter:opacity(100%);
+    transition: all 1s linear;
+}
+.opacity {
+    filter:opacity(50%);
+    transition: all 1s linear;
+}
+.space {
+    margin-top: 400px;
+
+}
+.scaling {
+    height:200px;
+    width:200px
+}
+
 @media only screen and (max-width: 768px) {
     .scaled {
         width:100%

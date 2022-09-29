@@ -2,11 +2,9 @@
     position: relative;
 }
 
-.react-player {
-    position: relative;
-    top: 0;
-    left: 0;
-}
+/* .react-player {
+  
+} */
 
 .spacer {
     margin-top: 3px

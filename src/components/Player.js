@@ -37,11 +37,14 @@ function Player() {
   }
 
   useEffect(() => {
+    const qtest = document.querySelector(".qtest");
 
     if (isPlayerActive === false) {
+      qtest.textContent="Show Music Player";
       console.log('hidden');
     } 
     else if (isPlayerActive === true) {
+      qtest.textContent="Hide Music Player";
       console.log('showing');
     } 
     else {
@@ -52,7 +55,7 @@ function Player() {
   return (
     <div className ="bg-dark loading-message">
 
-      <button onClick={togglePlayerActive}>{isPlayerActive ? "Hide Music Player" : "Show Music Player"}</button>
+      <button className="qtest" onClick={togglePlayerActive}></button>
     
       <div id = "player-switch-id" className ={isPlayerActive ? "showing" : "hidden"}>
 
