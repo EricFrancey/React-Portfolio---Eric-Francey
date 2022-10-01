@@ -12,7 +12,7 @@ export default function Resume() {
   return (
     <div>
       <h1 className='header-resume'>Resume</h1>
-        <div className='resume-flex'>
+        <div className='resume-flex bg-dark'>
           <div>
             <div className='resumeONE'>
               <img className = 'img-thumbnail' src = {resume1} alt = "profile"></img>

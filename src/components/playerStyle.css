@@ -29,6 +29,7 @@
    border-radius: 4%;
    background: rgb(2,0,36);
    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(11,92,189,1) 66%, rgba(9,47,121,0.7539390756302521) 100%);
+   width: 100%
 }
 
 .rocks-button:after {
@@ -88,7 +89,9 @@
     10%, 30%, 50%, 70%, 90% {transform: translateX(-5px);} 
     20%, 40%, 60%, 80% {transform: translateX(5px);} 
  }
- 
+ /* @media only screen and (max-width: 768px) {
+ } */
+
  .shake { 
     -webkit-animation-name: shake; 
     animation-name: shake; 

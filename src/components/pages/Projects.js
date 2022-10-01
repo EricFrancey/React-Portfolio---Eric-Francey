@@ -13,10 +13,15 @@ export default function Projects() {
   const toggleCurious = () => setCurious(!isCurious)
 
   return (
+
+    
     <div className = {isCurious ? "curious" : ""}>
       <h1 className='header-projects'>Projects</h1>
+      
       <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>
+      <div className="scrolldown2">
         <div className='grid-container bg-dark'>
+       
           <Card className='grid-item top-card invert'>
             <Card.Img variant="top" src={githubCardImg} />
             <Card.Body>
@@ -68,6 +73,8 @@ export default function Projects() {
            
             </Card.Body>
           </Card>
+        </div>
+
         </div>
     </div>
   );
