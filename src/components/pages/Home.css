@@ -67,7 +67,8 @@
     color: rgb(51, 18, 236);
     font-family: 'Rubik Dirt', cursive;
     font-size: 40px;
-    z-index: +1;
+
+   
 
 }
 
@@ -75,7 +76,8 @@
 
     position:fixed;
     left:50%;
-    top: 90%
+    top: 90%;
+    z-index: 10;
 }
 
 .skills {
@@ -134,7 +136,7 @@
   }
 
   .home-main {
-
+    left: 50%
 
   }
   .b {

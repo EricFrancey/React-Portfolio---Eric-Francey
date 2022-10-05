@@ -37,7 +37,98 @@ export default function Resume() {
 
         <AnimationOnScroll animateIn="animate__backInRight">
           <div className='skills'>
-            <div>Skills</div>
+            <div>Skills 1</div>
+
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+       
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="game-icons:juggling-clubs" />
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+         
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="ph:microphone-stage-duotone" />
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+        
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="emojione-monotone:monkey" />
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+       
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="game-icons:jump-across" />
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+           
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="bx:swim" />
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+          
+          </div>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__backInLeft">
+          <div className='skills'>
+            <div>Skills 2</div>
 
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
@@ -128,7 +219,7 @@ export default function Resume() {
 
         <AnimationOnScroll animateIn="animate__backInRight">
           <div className='skills'>
-            <div>Skills</div>
+            <div>Skills 3</div>
 
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
@@ -217,100 +308,9 @@ export default function Resume() {
           </div>
         </AnimationOnScroll>
 
-        <AnimationOnScroll animateIn="animate__backInRight">
+        <AnimationOnScroll animateIn="animate__backInLeft">
           <div className='skills'>
-            <div>Skills</div>
-
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-       
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="game-icons:juggling-clubs" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-         
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="ph:microphone-stage-duotone" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-        
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="emojione-monotone:monkey" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-       
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="game-icons:jump-across" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-           
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="bx:swim" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-          
-          </div>
-        </AnimationOnScroll>
-
-        <AnimationOnScroll animateIn="animate__backInRight">
-          <div className='skills'>
-            <div>Skills</div>
+            <div>Skills 4</div>
 
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          

@@ -19,7 +19,7 @@ export default function Projects() {
       <h1 className='header-projects'>Projects</h1>
       
       <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>
-      <div className="scrolldown2">
+      <div className="">
         <div className='grid-container bg-dark'>
        
           <Card className='grid-item top-card invert'>
