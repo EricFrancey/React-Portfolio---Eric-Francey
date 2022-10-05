@@ -1,11 +1,10 @@
 import React from 'react';
-import './Contact.css';
 
 export default function Contact() {
   return (
     
     <div>
-      <h1 className='header-contact'>Contact Me</h1>
+      <h1 className=' header header-contact'>Contact Me</h1>
       <div className='bg-dark'>
       <div className='scrolldown'>
           <form action="/action_page.php">

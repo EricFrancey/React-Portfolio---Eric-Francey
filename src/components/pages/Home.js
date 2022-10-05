@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './Home.css';
+import './main.css';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Icon } from '@iconify/react';
@@ -19,7 +19,7 @@ export default function Resume() {
   
   return (
     <div>
-      <h1 className='header-home'>Eric George Zytaruk Francey</h1>
+      <h1 className='header header-home'>Eric George Zytaruk Francey</h1>
 
       <AnimationOnScroll animateIn="animate__backInRight">
         <div className='home-main resume-flex bg-dark'>

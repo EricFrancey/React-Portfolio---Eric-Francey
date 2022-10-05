@@ -1,4 +1,3 @@
-import "./Projects.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React, { useState, useEffect, useRef } from 'react';
@@ -13,15 +12,11 @@ export default function Projects() {
   const toggleCurious = () => setCurious(!isCurious)
 
   return (
-
-    
     <div className = {isCurious ? "curious" : ""}>
-      <h1 className='header-projects'>Projects</h1>
+      <h1 className='header header-projects'>Projects</h1>
       
       <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>
-      <div className="">
-        <div className='grid-container bg-dark'>
-       
+      <div className='grid-container bg-dark'>
           <Card className='grid-item top-card invert'>
             <Card.Img variant="top" src={githubCardImg} />
             <Card.Body>
@@ -44,7 +39,6 @@ export default function Projects() {
             <Card.Text>
               Drum sequencer written in vanilla HTML, CSS, and JavaScript. Set your drum pattern and speed, save your own presets, and more!
             </Card.Text>
- 
             </Card.Body>
           </Card>
 
@@ -57,7 +51,6 @@ export default function Projects() {
             <Card.Text>
               Test your vision with a dynamic perspective image - use classic vision test images or drag in your own photos.
             </Card.Text>
-            
             </Card.Body>
           </Card>
 
@@ -70,11 +63,8 @@ export default function Projects() {
             <Card.Text>
               Designed to help conservation and documentation efforts. A full-stack application built with React.js and GraphQL. 
             </Card.Text>
-           
             </Card.Body>
           </Card>
-        </div>
-
         </div>
     </div>
   );

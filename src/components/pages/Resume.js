@@ -1,5 +1,4 @@
 import React from 'react';
-import './Resume.css';
 
 const resume1 = require('../../assets/resume1.jpg');
 const resume2 = require('../../assets/resume2.jpg');
@@ -11,12 +10,14 @@ export default function Resume() {
 
   return (
     <div>
-      <h1 className='header-resume'>Resume</h1>
+      <h1 className='header header-resume'>Resume</h1>
         <div className='resume-flex bg-dark'>
           <div>
             <div className='resume1'>
               <img className = 'img-thumbnail' src = {resume1} alt = "profile"></img>
             </div>
+            {/* <div className='resume-details1'>
+            </div> */}
             <div className='resume1'>
               <img className = 'img-thumbnail' src = {resume2} alt = "profile"></img>
             </div>
