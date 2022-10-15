@@ -1,25 +1,20 @@
 import React from 'react';
+import Iframe from 'react-iframe'
 
 export default function Contact() {
   return (
-    
-    <div>
-      <h1 className=' header header-contact'>Contact Me</h1>
-      <div className='bg-dark'>
-      <div className='scrolldown'>
-          <form action="/action_page.php">
-            <label>First Name</label>
-            <input type="text"id="fname"name="firstname"placeholder="Your name.."/>
-              <label>Last Name</label>
-            <input type="text"id="lname" name="lastname" placeholder="Your last name.."/>
-              <label>Email</label>
-            <input type="email"id="email"name="email"placeholder="Your email"/>
-              <label>Subject</label>
-            <textarea id="subject"name="subject"placeholder="Write something.."></textarea>
-            <input type="submit"value="Submit"/>
-        </form>
-    </div>
-    </div>
+    <div className="flex">
+     <Iframe url="https://docs.google.com/forms/d/e/1FAIpQLSe51-6ZS9nYlR2Itc2u1xJSCoUFK7dVNhr3XXgcPBgOlhCylQ/viewform?embedded=true"
+      width="640"
+      height="1179"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      id=""
+      className="scaled"
+      display="block"
+      position="relative"/>
+    <div className="player-rocks-info"> Rhythm Rocks! View this project's repo on the projects tab.</div>
   </div>
   );
 }
