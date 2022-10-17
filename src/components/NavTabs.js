@@ -3,7 +3,7 @@ import "./playerStyle.css"
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className =" bg-dark spacer">
+    <div className ="bg-dark">
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <a
@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             >Me
             </a>
           </li>
-          <li className="nav-item bg-dark">
+          <li className="nav-item">
             <a
               href="#resume"
               onClick={() => handlePageChange('Resume')}

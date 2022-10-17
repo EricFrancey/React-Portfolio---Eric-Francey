@@ -22,7 +22,7 @@ export default function Resume() {
       <h1 className='header header-home'>Eric George Zytaruk Francey</h1>
 
       <AnimationOnScroll animateIn="animate__backInRight">
-        <div className='home-main resume-flex bg-dark'>
+        <div className='home-main resume-flex'>
           <div className='profile-image'>
             <img className = 'img-thumbnail' src = {image} alt = "profile"></img>
           </div>
@@ -35,7 +35,7 @@ export default function Resume() {
       <div className = "scrolldown">
         
 
-        <AnimationOnScroll animateIn="animate__backInRight">
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInRight">
           <div className='skills'>
             <div>Skills 1</div>
 
@@ -126,7 +126,7 @@ export default function Resume() {
           </div>
         </AnimationOnScroll>
 
-        <AnimationOnScroll animateIn="animate__backInLeft">
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
           <div className='skills'>
             <div>Skills 2</div>
 

@@ -16,7 +16,7 @@ export default function Projects() {
       <h1 className='header header-projects'>Projects</h1>
       
       <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>
-      <div className='grid-container bg-dark'>
+      <div className='grid-container'>
           <Card className='grid-item top-card invert'>
             <Card.Img variant="top" src={githubCardImg} />
             <Card.Body>

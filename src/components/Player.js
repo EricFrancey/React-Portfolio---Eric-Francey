@@ -13,7 +13,6 @@ function Player() {
 
   const [isRocks, setRocks] = useState(false);
   const toggleRocks = () => setRocks(!isRocks)
-  // const switchID = document.querySelector("#player-switch-id");
 
   const musicURLs = [
                       "https://soundcloud.com/vgmplanet/jungle-japes-1?in=vgmplanet/sets/donkey-kong-64-ost",
@@ -37,14 +36,14 @@ function Player() {
   }
 
   useEffect(() => {
-    const qtest = document.querySelector(".qtest");
+    const playerButton = document.querySelector(".player-button");
 
     if (isPlayerActive === false) {
-      qtest.textContent="Show Music Player";
+      playerButton.textContent="Show Music Player";
       console.log('hidden');
     } 
     else if (isPlayerActive === true) {
-      qtest.textContent="Hide Music Player";
+      playerButton.textContent="Hide Music Player";
       console.log('showing');
     } 
     else {
@@ -53,13 +52,13 @@ function Player() {
   },[isPlayerActive]);
 
   return (
-    <div className ="bg-dark loading-message">
+    <div>
 
-      <button className="qtest" onClick={togglePlayerActive}></button>
+      <button className="player-button" onClick={togglePlayerActive}></button>
     
-      <div id = "player-switch-id" className ={isPlayerActive ? "showing" : "hidden"}>
+      <div className ={isPlayerActive ? "showing player-wrapper" : "hidden player-wrapper"}>
 
-        <button onClick={toggleDancing}>{isDancing ? "Dancing" : "Dance"}</button>
+        <button className = "nav-item" onClick={toggleDancing}>{isDancing ? "Dancing" : "Dance"}</button>
         <div className={isDancing ? "player-wrapper animated1 shake" : "player-wrapper"}>
           <ReactPlayer
             url={musicURLs[0]}

@@ -1,10 +1,13 @@
-.player-wrapper {
-    position: relative;
+.player-style-main {
+   margin-left: 5%;
+   margin-right: 5%;
 }
 
-/* .react-player {
-  
-} */
+.player-wrapper {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 .spacer {
     margin-top: 3px
@@ -19,6 +22,20 @@
     display: block
 }
 
+.player-button {
+
+   color:rgb(133, 224, 224);
+   font-family: 'Press Start 2P', cursive;
+   text-align: right;
+   border: 0.3rem;
+   border-color: black;
+   border-style: solid;
+   border-radius: 4%;
+   background: rgb(255,255,255);
+   background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgba(0,0,0,1) 30%, rgba(16,22,33,0.7539390756302521) 100%);
+   width: 100%
+}
+
 .rocks-button {
    color:rgb(133, 224, 224);
    font-family: 'Press Start 2P', cursive;
@@ -27,28 +44,9 @@
    border-color: black;
    border-style: solid;
    border-radius: 4%;
-   background: rgb(2,0,36);
-   background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(11,92,189,1) 66%, rgba(9,47,121,0.7539390756302521) 100%);
+   background: rgb(255,255,255);
+   background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgba(0,0,0,1) 30%, rgba(16,22,33,0.7539390756302521) 100%);
    width: 100%
-}
-
-.rocks-button:after {
-   color:white;
-   font-family: "Lucida Console", "Courier New", monospace;
-   font: "Courier New";
-   height: 2em;
-   width: 50em;
-   display: block;
-   content: "";
-   font-size: 8px;
-   float: right;
-   background: rgb(2,0,36);
-   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 10%, rgba(9,47,121,0.7539390756302521) 77%);
-   -moz-transform:    scaleX(-1); /* Gecko */
-   -o-transform:      scaleX(-1); /* Opera */
-   -webkit-transform: scaleX(-1); /* Webkit */
-   transform:         scaleX(-1); /* Standard */
-   filter: FlipH;                 /* IE 6/7/8 */
 }
 
 .animated1 { 
@@ -77,6 +75,22 @@
     -webkit-animation: shake 4s infinite;
     animation: shake 4s infinite
  }
+
+ .nav-link {
+   color:rgb(255, 0, 0);
+ }
+ .nav-item {
+   color:rgb(255, 0, 0);
+   font-family: 'Press Start 2P', cursive;
+   text-align: center;
+   border: 0.1rem;
+   border-color: rgb(255, 255, 255);
+   border-style: solid;
+   border-radius: 4%;
+   background: rgb(0, 0, 0);
+   width: 10rem
+
+ }
  
  @-webkit-keyframes shake {
     0%, 100% {-webkit-transform: translateX(0);} 
@@ -89,8 +103,6 @@
     10%, 30%, 50%, 70%, 90% {transform: translateX(-5px);} 
     20%, 40%, 60%, 80% {transform: translateX(5px);} 
  }
- /* @media only screen and (max-width: 768px) {
- } */
 
  .shake { 
     -webkit-animation-name: shake; 
