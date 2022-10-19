@@ -78,8 +78,26 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(191,220,255,1) 30%, rgba(9,47,121,0.7539390756302521) 100%);
 }
 
+
 .profile-image {
+    width: 50rem;
     filter: sepia();
+}
+.profile-image-under {
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    display: block;
+    font-size: 40px;
+}
+
+.skill-points-available {
+    margin-top: 10rem;
+    margin-left: 30rem;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    display:flex;
+    flex-direction: row;
+    font-size: 40px;
 }
 
 .intro-blurb {
@@ -94,14 +112,39 @@
     font-size: 40px;
 
 }
+
+
+
+.profile-image {
+   
+    filter: sepia();
+}
+.profile-image-under {
+ 
+}
+.info-block {
+    width: 50rem;
+}
 .eric-info {
-    height: 100%;
+    min-height:10%;
     background-color: gray;
     border: 5px solid black;
-    margin-top: 5em;
+    margin-top: 1em;
     color: rgb(51, 18, 236);
     font-family: 'Rubik Dirt', cursive;
     font-size: 40px;
+}
+
+
+.eric-info-under {
+
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    display: block;
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .back-to-top {
@@ -114,6 +157,17 @@
 .skills {
     border: 5px solid black;
     height: 100%;
+}
+.skills-blurb {
+    /* height: 100%; */
+    width: 100%;
+    background-color: gray;
+    border: 5px solid black;
+    margin-top: 1em;
+    color: rgb(51, 18, 236);
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 40px;
+    margin-right: 100px;
 }
 
 .skill-item {
@@ -174,20 +228,24 @@
 }
 
 .scrolldown {
-    margin-left: 10%;
-    margin-right: 10%
+   background-color:rgb(0, 0, 0);
 }
 
 .dot {
     height: 25px;
     width: 25px;
-    background-color: #bbb;
+    background-color: rgb(46, 199, 0);
     border-radius: 50%;
     display: inline-block;
     margin-right: 2px
 }
 
 .flex {
+    display: flex;
+    flex-direction: row;
+}
+.skill-point-flex {
+
     display: flex;
     flex-direction: row;
 }

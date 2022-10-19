@@ -20,28 +20,51 @@ export default function Resume() {
   return (
     <div>
       <h1 className='header header-home'>Eric George Zytaruk Francey</h1>
-
-      <AnimationOnScroll animateIn="animate__backInRight">
         <div className='home-main resume-flex'>
           <div className='profile-image'>
             <img className = 'img-thumbnail' src = {image} alt = "profile"></img>
+            <div className='profile-image-under'> Level 30 Humanoid</div>
           </div>
+          <div className=''>
           <div className="eric-info"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
+          <div className='eric-info-under'>&emsp;  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+          {/* <div className = "eric-info-under">Special Ability</div>
+          <div className = "eric-info-under">equilibrioception</div>
+          <div className = "eric-info-under">Weakness</div>
+          <div className = "eric-info-under">deuteranopia</div> */}
+          </div>
+         
         </div>
-      </AnimationOnScroll>
-      <div>
-      <Button className="back-to-top" onClick={scrollToTop} variant="success">Back to top</Button>
-      </div>
-      <div className = "scrolldown">
-        
+      
+        <div>
+          <Button className="back-to-top" onClick={scrollToTop} variant="success">Back to top</Button>
+        </div>
 
-        <AnimationOnScroll className='skill-before' animateIn="animate__backInRight">
+   
+
+    
+      <div className = "scrolldown">
+      <div className='skill-points-available'> Skill Points Available: 
+          <div className='skill-point-flex'>
+            <div className="outer">
+              <div className='inner'></div>
+            </div>
+       </div>
+       x 8</div>
+        <AnimationOnScroll animateIn="animate__backInRight">
+          <div className="skills-blurb"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
           <div className='skills'>
             <div>Skills 1</div>
 
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className='dot'></div>
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -124,6 +147,10 @@ export default function Resume() {
               </div>
           
           </div>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__backInRight">
+          <div className="skills-blurb"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
         </AnimationOnScroll>
 
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
