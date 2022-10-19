@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
 import './main.css';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Icon } from '@iconify/react';
 import Button from 'react-bootstrap/Button';
+import React from 'react';
 
 const image = require('../../assets/profilephoto.jpg');
 
@@ -44,15 +44,19 @@ export default function Resume() {
 
     
       <div className = "scrolldown">
+        
       <div className='skill-points-available'> Skill Points Available: 
           <div className='skill-point-flex'>
             <div className="outer">
               <div className='inner'></div>
             </div>
        </div>
-       x 8</div>
+       x unlimited</div>
+       <div className='eric-info-under'>&emsp;  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-blurb"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
+       
+
+          <div className="skills-title"> Skill Tree 1</div>
         </AnimationOnScroll>
 
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
@@ -472,6 +476,9 @@ export default function Resume() {
             <Icon className='scaling' icon="logos:heroku-icon" />
          */}
     </div>
+
   </div> 
   );  
 }
+
+

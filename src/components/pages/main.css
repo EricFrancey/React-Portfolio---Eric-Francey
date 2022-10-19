@@ -80,9 +80,12 @@
 
 
 .profile-image {
-    width: 50rem;
+    width: 150rem;
     filter: sepia();
 }
+
+
+
 .profile-image-under {
     color:white;
     font-family: 'Press Start 2P', cursive;
@@ -90,15 +93,7 @@
     font-size: 40px;
 }
 
-.skill-points-available {
-    margin-top: 10rem;
-    margin-left: 30rem;
-    color:white;
-    font-family: 'Press Start 2P', cursive;
-    display:flex;
-    flex-direction: row;
-    font-size: 40px;
-}
+
 
 .intro-blurb {
     font-family: 'Rubik Dirt', cursive;
@@ -112,16 +107,14 @@
     font-size: 40px;
 
 }
+.contact-me-info {
 
-
-
-.profile-image {
-   
-    filter: sepia();
+    margin-top: 5em;
+    color: white;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 40px;
 }
-.profile-image-under {
- 
-}
+
 .info-block {
     width: 50rem;
 }
@@ -147,6 +140,18 @@
     margin-right: 3rem;
 }
 
+
+.skill-points-available {
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    display:block;
+    font-size: 40px;
+}
+
+
 .back-to-top {
     position:fixed;
     left:50%;
@@ -155,7 +160,7 @@
 }
 
 .skills {
-    border: 5px solid black;
+    border: 5px solid rgb(94, 6, 86);
     height: 100%;
 }
 .skills-blurb {
@@ -168,10 +173,25 @@
     font-family: 'Rubik Dirt', cursive;
     font-size: 40px;
     margin-right: 100px;
+    
+}
+
+.skills-title {
+    font-family: 'Press Start 2P', cursive;
+    text-align: right;
+    background-color: gray;
+    border: 5px solid rgb(61, 2, 117);
+    border-radius:30px;
+    margin-top: 1em;
+    color: rgb(51, 18, 236);
+    font-size: 40px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    width: 40%;
 }
 
 .skill-item {
-    border: 5px solid black;
+    border: 5px solid rgb(253, 3, 3);
 }
 
 .skill-before::before {
@@ -352,6 +372,9 @@
         flex-direction: column;
     }
 
+    .profile-image {
+        width: 100%;
+    }
     .top-card{ 
         width: 100%;
     }
@@ -359,10 +382,6 @@
     .following-card {
         width:100%;
         height: 100%
-    }
-
-    .profile-image {
-        width:100%;
     }
 
     .home-main {
@@ -384,5 +403,17 @@
 
     .resume5 {
         margin-left:1px
+    }
+
+    .contact-me-info {
+
+        margin-top: 1px;
+        font-size: 40px;
+    }
+    .skills-title {
+      
+        margin-right: 5px;
+        margin-left: 5px;
+        width: 90%;
     }
 }
