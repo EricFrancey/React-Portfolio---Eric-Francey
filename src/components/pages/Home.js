@@ -2,13 +2,12 @@ import './main.css';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Icon } from '@iconify/react';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import React from 'react';
 
 const image = require('../../assets/profilephoto.jpg');
 
 export default function Resume() {
-
   const scrollToTop = () =>{
     window.scrollTo({
       top: 0, 
@@ -20,55 +19,50 @@ export default function Resume() {
   return (
     <div>
       <h1 className='header header-home'>Eric George Zytaruk Francey</h1>
+      <div className='character-card'>
         <div className='home-main resume-flex'>
           <div className='profile-image'>
             <img className = 'img-thumbnail' src = {image} alt = "profile"></img>
             <div className='profile-image-under'> Level 30 Humanoid</div>
           </div>
           <div className=''>
-          <div className="eric-info"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
-          <div className='eric-info-under'>&emsp;  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-          {/* <div className = "eric-info-under">Special Ability</div>
-          <div className = "eric-info-under">equilibrioception</div>
-          <div className = "eric-info-under">Weakness</div>
-          <div className = "eric-info-under">deuteranopia</div> */}
+            <div className="eric-info"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
+            <div className='eric-info-under'>&emsp;  This character is skilled in CSS, JavaScript, Node, React, Bootstrap, and GraphQL with experience implementing many front-end and back-end development frameworks and libraries.</div>
+            <div className = "eric-info-under">Minor Skills: Psychology, Charisma, Lion Whispering, FL Studio, Reaper, Python.</div>
+            <div className = "eric-info-under">Special Ability: equilibrioception</div>
+            <div className = "eric-info-under">Weakness: deuteranopia</div>
           </div>
-         
         </div>
+      </div>
       
-        <div>
-          <Button className="back-to-top" onClick={scrollToTop} variant="success">Back to top</Button>
-        </div>
+      <div>
+          {/* <Button className="back-to-top" onClick={scrollToTop}>Back to top</Button> */}
+          <button className='back-to-top'onClick={scrollToTop}>Back to top</button>
+      </div>
 
-   
-
-    
       <div className = "scrolldown">
-        
       <div className='skill-points-available'> Skill Points Available: 
-          <div className='skill-point-flex'>
+        <div className='skill-point-flex'>
             <div className="outer">
               <div className='inner'></div>
             </div>
-       </div>
-       x unlimited</div>
-       <div className='eric-info-under'>&emsp;  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+       </div>&emsp;x unlimited
+      </div>
+
+       <div className='eric-info-under'>&emsp;  A little about me: I love to make music, skateboard, game and code. I have recently begun my professional programming career, and I intend to have a long and interwoven experience with the coming decades of software development. </div>
+        
         <AnimationOnScroll animateIn="animate__backInRight">
-       
-
-          <div className="skills-title"> Skill Tree 1</div>
+          <div className="skills-title"> Hobbies and Interests <div className='skills-title-under'>Always learning and doing something new. Recently, I've been trying to polish my skills in piano and music production. I make cool video game music and hip-hop beats!</div></div>
         </AnimationOnScroll>
-
+        
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
           <div className='skills'>
-            <div>Skills 1</div>
-
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
                 <div className="outer">
                   <div className='inner'></div>
-                </div>
 
+                </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -149,21 +143,23 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
-          
+  
           </div>
         </AnimationOnScroll>
 
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-blurb"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
+          <div className="skills-title"> Front-end <div className='skills-title-under'>I have developed a comfortable style of my own when it comes to front-end development. I love to collaborate on use and design ideas, and am always open to try new frameworks. What do you suggest?</div></div>
         </AnimationOnScroll>
-
+        
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
           <div className='skills'>
-            <div>Skills 2</div>
-
+            <div>Skills 1</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className='dot'></div>
+                <div className="outer">
+                  <div className='inner'></div>
+
+                </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -244,17 +240,23 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
-          
+  
           </div>
         </AnimationOnScroll>
 
         <AnimationOnScroll animateIn="animate__backInRight">
+          <div className="skills-title"> Back-end <div className='skills-title-under'>Always trying to keep up with the latest and greatest, I am familiar with SQL, MongoDB, and GraphQL. </div></div>
+        </AnimationOnScroll>
+        
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
           <div className='skills'>
-            <div>Skills 3</div>
-
+            <div>Skills 1</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className='dot'></div>
+                <div className="outer">
+                  <div className='inner'></div>
+
+                </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -335,17 +337,23 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
-          
+  
           </div>
         </AnimationOnScroll>
 
-        <AnimationOnScroll animateIn="animate__backInLeft">
+        <AnimationOnScroll animateIn="animate__backInRight">
+          <div className="skills-title"> Work and Education <div className='skills-title-under'> Prior to web and software development, I enjoyed a career in public speaking as a presenter and tour guide across Ontario. At Toronto Harbour Tours and African Lion Safari, I became the confident speaker I am today.</div></div>
+        </AnimationOnScroll>
+        
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
           <div className='skills'>
-            <div>Skills 4</div>
-
+            <div>Skills 1</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className='dot'></div>
+                <div className="outer">
+                  <div className='inner'></div>
+
+                </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -426,7 +434,7 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
-          
+  
           </div>
         </AnimationOnScroll>
 
