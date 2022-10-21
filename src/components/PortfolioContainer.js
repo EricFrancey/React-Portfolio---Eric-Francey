@@ -5,6 +5,7 @@ import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import ReactPlayer from './Player';
+import Footer from './Footer'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -31,6 +32,7 @@ export default function PortfolioContainer() {
     <div className='main-color'>
       <ReactPlayer></ReactPlayer>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Footer></Footer>
       {renderPage()}
     </div>
   );

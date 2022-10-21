@@ -5,6 +5,12 @@
     background-color: black;
 } */
 
+a:link,
+a:visited,
+a:active {
+  text-decoration: none; 
+  color: rgb(204, 16, 16);
+}
 
 .main-color {
     background-color:#353535;
@@ -46,6 +52,31 @@
     border-radius: 50%;
     margin: auto auto auto auto;
   }
+
+.socials-icon {
+  width: 2rem;
+  margin-left: 2rem;
+}
+
+.socials-icon:hover {
+  color: rgb(21, 142, 241);
+
+}
+
+.footer {
+  border: 1px solid white;
+  font-family: 'Press Start 2P', cursive;
+  padding-left: 1rem;
+  color: white;
+  position:fixed;
+  width: 20rem;
+  height: 2rem;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgb(29, 29, 29);
+  z-index: 50;
+  padding-top: 2px;
+}
 
 
 /* dev border mode */
