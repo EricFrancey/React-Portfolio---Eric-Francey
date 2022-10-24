@@ -12,7 +12,7 @@ export default function Projects() {
   const toggleCurious = () => setCurious(!isCurious)
 
   return (
-    <div className = {isCurious ? "curious main-color2" : "main-color2"}>
+    <div className = {isCurious ? "curious tst" : "tst"}>
       <h1 className='header header-projects'>Projects</h1>
       
       <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>

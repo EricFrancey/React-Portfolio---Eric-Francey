@@ -36,7 +36,6 @@ export default function Resume() {
       </div>
       
       <div>
-          {/* <Button className="back-to-top" onClick={scrollToTop}>Back to top</Button> */}
           <button className='back-to-top'onClick={scrollToTop}>Back to top</button>
       </div>
 
@@ -49,19 +48,20 @@ export default function Resume() {
        </div>&emsp;x unlimited
       </div>
 
-       <div className='eric-info-under'>&emsp;  A little about me: I love to make music, skateboard, game and code. I have recently begun my professional programming career, and I intend to have a long and interwoven experience with the coming decades of software development. </div>
+       <div className='eric-info-under'>&emsp;  A little about me: I like to make music, skateboard, game and code. I have recently begun my professional programming career, and I intend to have a long and interwoven experience with the coming decades of software development. </div>
         
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Hobbies and Interests <div className='skills-title-under'>Always learning and doing something new. Recently, I've been trying to polish my skills in piano and music production. I make cool video game music and hip-hop beats!</div></div>
+          <div className="skills-title"> Hobbies and Interests <div className='skills-title-under'>&emsp; Always learning and doing something new. Recently, I've been trying to polish my skills in piano and music production. I make cool video game music and hip-hop beats!</div></div>
         </AnimationOnScroll>
         
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
           <div className='skills'>
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
                 <div className="outer">
                   <div className='inner'></div>
-
                 </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -73,10 +73,15 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
+            </div>
        
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
               <div className='skill-item space flex'>
-                <Icon className='scaling' icon="game-icons:juggling-clubs" />
-                <div className='dot'></div>
+                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -87,10 +92,15 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
-         
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
               <div className='skill-item space flex'>
-                <Icon className='scaling' icon="ph:microphone-stage-duotone" />
-                <div className='dot'></div>
+                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -101,10 +111,15 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
-        
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
               <div className='skill-item space flex'>
-                <Icon className='scaling' icon="emojione-monotone:monkey" />
-                <div className='dot'></div>
+                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
                 <div className='dot'></div>
                 <div className='dot'></div>
                 <div className='dot'></div>
@@ -115,40 +130,175 @@ export default function Resume() {
                 <div className='dot'></div>
                 <div className='dot'></div>
               </div>
-       
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="game-icons:jump-across" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-           
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="bx:swim" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-  
+            </div>
           </div>
         </AnimationOnScroll>
 
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Front-end <div className='skills-title-under'>I have developed a comfortable style of my own when it comes to front-end development. I love to collaborate on use and design ideas, and am always open to try new frameworks. What do you suggest?</div></div>
+          <div className="skills-title"> Front-end <div className='skills-title-under'>&emsp; I have developed a comfortable style of my own when it comes to front-end development. I love to collaborate on use and design ideas, and am always open to try new frameworks. What do you suggest?</div></div>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
+          <div className='skills'>
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="logos:html-5" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+       
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="logos:css-3" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="logos:javascript" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="logos:python" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+
+
+            
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="logos:visual-studio-code" />          
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="fa-brands:git" />         
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="logos:bootstrap" /> 
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">hello</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="logos:tailwindcss-icon" />         
+                <div className="outer">
+                  <div className='inner'></div>
+                </div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+                <div className='dot'></div>
+              </div>
+            </div>
+
+          </div>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__backInRight">
+          <div className="skills-title"> Back-end <div className='skills-title-under'>&emsp; Always trying to keep up with the latest and greatest, I am familiar with SQL, MongoDB, and GraphQL. </div></div>
         </AnimationOnScroll>
         
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
@@ -245,104 +395,7 @@ export default function Resume() {
         </AnimationOnScroll>
 
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Back-end <div className='skills-title-under'>Always trying to keep up with the latest and greatest, I am familiar with SQL, MongoDB, and GraphQL. </div></div>
-        </AnimationOnScroll>
-        
-        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
-          <div className='skills'>
-            <div>Skills 1</div>
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className="outer">
-                  <div className='inner'></div>
-
-                </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-       
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="game-icons:juggling-clubs" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-         
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="ph:microphone-stage-duotone" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-        
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="emojione-monotone:monkey" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-       
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="game-icons:jump-across" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-           
-              <div className='skill-item space flex'>
-                <Icon className='scaling' icon="bx:swim" />
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-              </div>
-  
-          </div>
-        </AnimationOnScroll>
-
-        <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Work and Education <div className='skills-title-under'> Prior to web and software development, I enjoyed a career in public speaking as a presenter and tour guide across Ontario. At Toronto Harbour Tours and African Lion Safari, I became the confident speaker I am today.</div></div>
+          <div className="skills-title"> Work and Education <div className='skills-title-under'>&emsp; Prior to web and software development, I enjoyed a career in public speaking as a presenter and tour guide across Ontario. At Toronto Harbour Tours and African Lion Safari, I became the confident speaker I am today.</div></div>
         </AnimationOnScroll>
         
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
@@ -463,17 +516,11 @@ export default function Resume() {
             <Icon className='scaling' icon="fad:logo-fl" />
             <Icon className='scaling' icon="fad:logo-reaper" />
             <Icon className='scaling' icon="logos:blender" />
-            <Icon className='scaling' icon="logos:visual-studio-code" />
-            <Icon className='scaling' icon="fa-brands:git" />
-            <Icon className='scaling' icon="akar-icons:github-fill" />
-            <Icon className='scaling' icon="logos:html-5" />
-            <Icon className='scaling' icon="logos:css-3" />
-            <Icon className='scaling' icon="logos:javascript" />
+
+      
             <Icon className='scaling' icon=" logos:jquery" />
             <Icon className='scaling' icon=" logos:react" />
-            <Icon className='scaling' icon=" logos:python" />
-            <Icon className='scaling' icon="logos:bootstrap" />
-            <Icon className='scaling' icon="logos:tailwindcss-icon" />
+
             <Icon className='scaling' icon="bi:filetype-sql" />
             <Icon className='scaling' icon="bi:filetype-json" />
             <Icon className='scaling' icon="logos:graphql" />

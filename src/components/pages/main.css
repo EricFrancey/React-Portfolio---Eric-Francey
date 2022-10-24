@@ -5,14 +5,6 @@
     background-color: rgb(248, 4, 4);
 }
 
-.main-background {
-    background-color: #353535;
-    height: 100vh;
-    width: 100vw
-    /* height: 100%;
-    width: 100% */
-}
-
 .header {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -78,13 +70,10 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(191,220,255,1) 30%, rgba(9,47,121,0.7539390756302521) 100%);
 }
 
-
 .profile-image {
-    width: 150rem;
+    width: 100rem;
     filter: sepia();
 }
-
-
 
 .profile-image-under {
     color:white;
@@ -92,8 +81,6 @@
     display: block;
     font-size: 20px;
 }
-
-
 
 .intro-blurb {
     font-family: 'Rubik Dirt', cursive;
@@ -108,7 +95,6 @@
 
 }
 .contact-me-info {
-
     margin-top: 5em;
     color: white;
     font-family: 'Rubik Dirt', cursive;
@@ -118,8 +104,9 @@
 .info-block {
     width: 50rem;
 }
+
 .eric-info {
-    min-height:10%;
+    /* min-height:10%; */
     background-color: gray;
     border: 5px solid black;
     margin-top: 1em;
@@ -128,27 +115,28 @@
     font-size: 20px;
 }
 
-
 .eric-info-under {
-
     color:white;
     font-family: 'Press Start 2P', cursive;
     display: block;
-    font-size: 20px;
+    font-size: 12px;
     margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
+.skill-name {
+    color: red;
+    padding-top: 3rem;
+}
 
 .skill-points-available {
     width: 100%;
     margin-top: 1rem;
-    /* margin-left: 1rem; */
     color:white;
     font-family: 'Press Start 2P', cursive;
     display:flex;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 
@@ -162,7 +150,6 @@
     border-radius: 4%;
     background: rgb(0, 0, 0);
     width: 10rem;
-
     position:fixed;
     left:50%;
     top: 90%;
@@ -173,16 +160,15 @@
     border: 5px solid rgb(63, 63, 63);
     border-radius: 20px;
     background-color: #353535;
-    height: 100%;
     margin-left: 10rem;
-    margin-right: 10rem;
+    margin-right: 20rem;
     padding-right:5rem;
     padding-left:5rem;
 }
 
 .skill-item {
     border: 5px solid rgb(23, 34, 131);
-    border-radius: 20px;
+    border-radius: 2px;
     background-color: #888888;
 }
 
@@ -212,23 +198,23 @@
     background-color: gray;
     border: 5px solid rgb(61, 2, 117);
     border-radius:30px;
-    margin-top: 1em;
     color: rgb(51, 18, 236);
-    font-size: 20px;
-    margin-right: 5rem;
-    margin-left: 50rem;
-    width: 40%;
+    font-size: 16px;
+    left: 0px;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding-right: 20px;
 }
 .skills-title-under {
 
-    font-size: 20px;
+    font-size: 12px;
     color: black;
     text-align:left;
     padding-left: 2rem;
     padding-right: 2rem;
 }
-
-
 
 .skill-before::before {
     color:white;
@@ -284,8 +270,13 @@
 }
 
 .scrolldown {
+    padding: 5rem 5rem 5rem 5rem;
     border-top: 5px dashed white;
-   background-color:rgb(0, 0, 0);
+    background-image: url("https://images.pexels.com/photos/10649075/pexels-photo-10649075.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dot {
@@ -334,7 +325,7 @@
 /* ////////// resume */
 
 .resume-flex {
-    width:100%;
+    /* width:100%; */
     display:flex;
     flex-direction:row;
 }
@@ -349,13 +340,6 @@
     filter:invert(20%);
     transition:all 1s ease-in
 }
-
-/* .resume1:hover + .resume-details1 {
-    position: fixed;
-    background-color: rgb(253, 5, 5);
-    height:100%;
-    width:100%
-} */
 
 .resume4 {
     z-index: 2;
@@ -424,6 +408,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     .grid-container {
         flex-direction: column;
     }
@@ -431,17 +416,23 @@
     .profile-image {
         width: 100%;
     }
+
     .top-card{ 
         width: 100%;
     }
 
     .following-card {
         width:100%;
-        height: 100%
+        height:100%;
     }
 
     .home-main {
         width:100%;
+    }
+
+    .character-card {
+        margin: 0 0 0 0;
+        width: 100%;
     }
 
     .image-thumbnail {
@@ -462,18 +453,36 @@
     }
 
     .contact-me-info {
-
         margin-top: 1px;
         font-size: 20px;
     }
+
     .skills-title {
-      
-        margin-right: 5px;
-        margin-left: 5px;
-        width: 90%;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
     }
 
-    /* .skill-points-available {
+    .skills {
+
         width: 100%;
-    } */
+    }
+
+    .skill-before::before {
+        display:none;
+    }
+
+    .skills {
+        border: 5px solid rgb(63, 63, 63);
+        border-radius: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right:0;
+        padding-left:0;
+        width: 100%
+    }
+
+    .scrolldown {
+        padding: 0 0 0 0;
+    }
 }

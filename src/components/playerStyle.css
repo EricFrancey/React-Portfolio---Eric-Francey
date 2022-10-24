@@ -4,7 +4,7 @@
 }
 
 .player-wrapper {
-    position: relative;
+    /* position: relative; */
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -18,12 +18,10 @@
 }
 
 .showing {
-
     display: block
 }
 
 .player-button {
-
    color:rgb(133, 224, 224);
    font-family: 'Press Start 2P', cursive;
    text-align: right;
@@ -76,9 +74,6 @@
     animation: shake 4s infinite
  }
 
- .nav-link {
-   color:rgb(255, 0, 0);
- }
  .nav-item {
    color:rgb(255, 0, 0);
    font-family: 'Press Start 2P', cursive;

@@ -10,7 +10,8 @@ export default function Resume() {
   return (
     <div>
       <h1 className='header header-resume'>Resume</h1>
-        <div className='resume-flex main-color2 '>
+      <div className='tst'>
+        <div className='resume-flex'>
           <div>
             <div className='resume1'>
               <img className = 'img-thumbnail' src = {resume1} alt = "profile"></img>
@@ -30,6 +31,7 @@ export default function Resume() {
               <img className = 'img-thumbnail' src = {resume5} alt = "profile"></img>
             </div>
           </div>
+        </div>
         </div>
     </div>
   );
