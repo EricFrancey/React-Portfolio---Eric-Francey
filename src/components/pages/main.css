@@ -125,10 +125,7 @@
     margin-right: 3rem;
 }
 
-.skill-name {
-    color: red;
-    padding-top: 3rem;
-}
+
 
 .skill-points-available {
     width: 100%;
@@ -156,12 +153,29 @@
     z-index: 10;
 }
 
+.back-to-top-mobile {
+    color:rgb(52, 49, 255);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    border: 0.1rem;
+    border-color: rgb(27, 28, 117);
+    border-style: solid;
+    border-radius: 4%;
+    background: rgb(15, 15, 15);
+    width: 2.5rem;
+    height: 2.5rem;
+    position:fixed;
+    right: 0px;
+    bottom: 80px;
+    z-index: 10;
+    display:none;
+}
 .skills {
     border: 5px solid rgb(63, 63, 63);
     border-radius: 20px;
     background-color: #353535;
     margin-left: 10rem;
-    margin-right: 20rem;
+    margin-right: 10rem;
     padding-right:5rem;
     padding-left:5rem;
 }
@@ -170,8 +184,14 @@
     border: 5px solid rgb(23, 34, 131);
     border-radius: 2px;
     background-color: #888888;
+    float:right;
 }
 
+.skill-name {
+    color: red;
+    padding-top: 3rem;
+    float:left;
+}
 
 .skill-point-flex {
 
@@ -270,7 +290,7 @@
 }
 
 .scrolldown {
-    padding: 5rem 5rem 5rem 5rem;
+    padding: 10rem 10rem 10rem 10rem;
     border-top: 5px dashed white;
     background-image: url("https://images.pexels.com/photos/10649075/pexels-photo-10649075.jpeg");
     background-attachment: fixed;
@@ -280,8 +300,8 @@
 }
 
 .dot {
-    height: 25px;
-    width: 25px;
+    height: 18px;
+    width: 18px;
     background-color: rgb(29, 105, 6);
     border-radius: 50%;
     display: inline-block;
@@ -291,6 +311,7 @@
 .flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -371,6 +392,13 @@
     padding: 2px;
 }
 
+.home-project-flex {
+
+display:flex;
+flex-direction: row;
+
+
+}
 .red {
     background-color: red;
 }
@@ -407,12 +435,31 @@
     text-align: left;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
+
+
+    .flex {
+        justify-content:space-between;
+    }
 
     .grid-container {
         flex-direction: column;
     }
 
+    .home-project-flex {
+
+        flex-direction: column;
+        
+        
+        }
+    .back-to-top {
+        display:none;
+    }
+
+    .back-to-top-mobile {
+        display:block;
+    
+    }
     .profile-image {
         width: 100%;
     }
@@ -485,4 +532,5 @@
     .scrolldown {
         padding: 0 0 0 0;
     }
+
 }
