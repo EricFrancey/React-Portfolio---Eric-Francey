@@ -2,28 +2,19 @@ import './main.css';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Icon } from '@iconify/react';
-// import Button from 'react-bootstrap/Button';
 import React from 'react';
-import Iframe from 'react-iframe'
 import rhythmCard from "../.././assets/rhythmrocks.jpg";
 import visionCard from "../.././assets/visiontest.jpg"
 import zooCard from "../.././assets/zoologic.jpg";
-
+import cardimg from "../.././assets/fogbeach.png"
+import Contact from './Contact';
+import Resume from './Resume';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const resume1 = require('../../assets/resume1.jpg');
-const resume2 = require('../../assets/resume2.jpg');
-const resume3 = require('../../assets/resume3.jpg');
-const resume4 = require('../../assets/resume4.jpg');
-const resume5 = require('../../assets/resume5.jpg');
-
-
-
-
 const image = require('../../assets/profilephoto.jpg');
 
-export default function Resume() {
+export default function Home() {
   const scrollToTop = () =>{
     window.scrollTo({
       top: 0, 
@@ -69,89 +60,239 @@ export default function Resume() {
        </div>&emsp;x unlimited
       </div>
 
-       <div className='eric-info-under'>&emsp;  A little about me: I like to make music, skateboard, game and code. I have recently begun my professional programming career, and I intend to have a long and interwoven experience with the coming decades of software development. </div>
+       <div className='eric-info-under'>&emsp;  A little about me: I like to make music, skateboard, game and code. I have recently begun my professional programming career, and I intend to have a long and interwoven experience with the coming decades of software development. Prior to web development, I spent years as a professional tour guide, speaker and salesperson across Ontario. </div>
         
       
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Hobbies and Interests <div className='skills-title-under'>&emsp; Always learning and doing something new. Recently, I've been trying to polish my skills in piano and music production. I make cool video game music and hip-hop beats!</div></div>
+          <div className="skills-title"> Work and Education <div className='skills-title-under'>&emsp; I come from a background in psychology, sales and tourism. These days, I spend my time reading and writing code. I'm open to freelance work and collaborative personal projects.</div></div>
         </AnimationOnScroll>
 
         <div className='home-project-flex'>
         <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
-          <div className='skills'>
+        <div className='skills'>
             <div className='flex'>
-              <div className = "skill-name">hello</div>
+              <div className = "skill-name">Psychology</div>
               <div className='skill-item space flex'>
-                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
+                <Icon className='scaling' icon="icon-park-twotone:degree-hat" />
                 <div className="outer-skill-point">
                   <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
        
             <div className='flex'>
-              <div className = "skill-name">hello</div>
+              <div className = "skill-name">Full Stack Web Developer</div>
               <div className='skill-item space flex'>
-                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <Icon className='scaling' icon="grommet-icons:certificate" />          
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
             <div className='flex'>
-              <div className = "skill-name">hello</div>
+              <div className = "skill-name">Freelance Coder</div>
               <div className='skill-item space flex'>
-                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
+                <Icon className='scaling' icon="icon-park:code-computer" />          
                 <div className="outer">
                   <div className='inner'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
             <div className='flex'>
-              <div className = "skill-name">hello</div>
+              <div className = "skill-name">Captain</div>
               <div className='skill-item space flex'>
-                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <Icon className='scaling' icon="akar-icons:boat" />          
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+            
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
+
+
+            
+            <div className='flex'>
+              <div className = "skill-name">Driver</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="cil:bus-alt" />          
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+            
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">Speaker</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="ph:microphone-stage-duotone" />         
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+            
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">Tour Guide</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="emojione-monotone:lion-face" /> 
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+            
+               
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
           </div>
@@ -171,7 +312,7 @@ export default function Resume() {
           </div>
 
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Languages & Tools <div className='skills-title-under'>&emsp; I have developed a comfortable style of my own when it comes to front-end development. I love to collaborate on use and design ideas, and am always open to try new frameworks. What do you suggest?</div></div>
+          <div className="skills-title"> Languages & Tools <div className='skills-title-under'>&emsp; Though some are more familiar than others, I like to use a variety of avenues to get the job done. What do you suggest?</div></div>
         </AnimationOnScroll>
 
         <div className='home-project-flex'>
@@ -181,18 +322,32 @@ export default function Resume() {
               <div className = "skill-name">HTML</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:html-5" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
        
@@ -200,18 +355,32 @@ export default function Resume() {
               <div className = "skill-name">CSS</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:css-3" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -219,18 +388,32 @@ export default function Resume() {
               <div className = "skill-name">JavaScript</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:javascript" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -238,18 +421,29 @@ export default function Resume() {
               <div className = "skill-name">SQL</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="bi:filetype-sql" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -259,18 +453,27 @@ export default function Resume() {
               <div className = "skill-name">Python</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:python" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -278,18 +481,30 @@ export default function Resume() {
               <div className = "skill-name">Git</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="fa-brands:git" />         
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -297,18 +512,30 @@ export default function Resume() {
               <div className = "skill-name">Node</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:nodejs" /> 
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -316,44 +543,96 @@ export default function Resume() {
               <div className = "skill-name">Heroku</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:heroku-icon" />         
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
+
             <div className='flex'>
               <div className = "skill-name">VS Code</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:visual-studio-code" />         
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">FL Studio</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="fad:logo-fl" />         
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
           </div>
         </AnimationOnScroll>
-
-
-
 
         <Card className='grid-item following-card'>
             <Card.Img variant="top" src={visionCard} />
@@ -370,7 +649,7 @@ export default function Resume() {
     
 
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Libraries & Frameworks <div className='skills-title-under'>&emsp; Always trying to keep up with the latest and greatest, I am familiar with SQL, MongoDB, and GraphQL. </div></div>
+          <div className="skills-title"> Libraries & Frameworks <div className='skills-title-under'>&emsp; It's important to keep up with the latest and greatest. For now, I have a focus on React and GraphQL. </div></div>
         </AnimationOnScroll>
 
         <div className='home-project-flex'>
@@ -380,18 +659,32 @@ export default function Resume() {
               <div className = "skill-name">Bootstrap</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:bootstrap" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
        
@@ -399,18 +692,27 @@ export default function Resume() {
               <div className = "skill-name">Tailwind</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:tailwindcss-icon" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+               
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -418,18 +720,32 @@ export default function Resume() {
               <div className = "skill-name">React</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:react" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -437,18 +753,27 @@ export default function Resume() {
               <div className = "skill-name">jQuery</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:jquery" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+               
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -458,18 +783,29 @@ export default function Resume() {
               <div className = "skill-name">GraphQL</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:graphql" />          
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -477,18 +813,29 @@ export default function Resume() {
               <div className = "skill-name">MondoDB</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:mongodb" />         
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
 
@@ -496,18 +843,32 @@ export default function Resume() {
               <div className = "skill-name">Animate.css</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="material-symbols:animation" /> 
-                <div className="outer">
-                  <div className='inner'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
                 </div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
-                <div className='dot'></div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
               </div>
             </div>
           </div>
@@ -526,94 +887,203 @@ export default function Resume() {
           </Card>
 </div>
         <AnimationOnScroll animateIn="animate__backInRight">
-          <div className="skills-title"> Work and Education <div className='skills-title-under'>&emsp; Prior to web and software development, I enjoyed a career in public speaking as a presenter and tour guide across Ontario. At Toronto Harbour Tours and African Lion Safari, I became the confident speaker I am today.</div></div>
+          <div className="skills-title"> Hobbies & Interests <div className='skills-title-under'>&emsp; Always learning and doing something new. Recently, I've been trying to polish my skills in piano and music production. I make cool video game music and hip-hop beats!</div></div>
         </AnimationOnScroll>
-        
-{/* 
-        <Icon className='scaling' icon="bx:swim" />
-                <Icon className='scaling' icon="game-icons:jump-across" />
-                <Icon className='scaling' icon="emojione-monotone:monkey" />
-                <Icon className='scaling' icon="ph:microphone-stage-duotone" />
-                <Icon className='scaling' icon="game-icons:juggling-clubs" />
-                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />  */}
-              {/* emojione-monotone:lion-face
-        emojione-monotone:monkey
-        ph:microphone-stage-duotone
-        emojione-monotone:balance-scale
-        game-icons:body-balance
-        bi:soundwave
-        entypo:sound-mix
-        cil:bus-alt
-        akar-icons:boat
-        emojione-monotone:locomotive
-        game-icons:rat
-        mdi:snowboard */}
-        {/* 
-            <Icon className='scaling' icon="fluent:scan-type-24-filled" />
-            <Icon className='scaling' icon="ant-design:read-outlined" />
-            <Icon className='scaling' icon="fa6-solid:microphone-lines" />
-            <Icon className='scaling' icon="akar-icons:game-controller" />
-            <Icon className='scaling' icon="mdi:minecraft" />
-            <Icon className='scaling' icon="game-icons:greek-temple" />
-            <Icon className='scaling' icon="akar-icons:music" />
-            <Icon className='scaling' icon="game-icons:grand-piano" />
-            <Icon className='scaling' icon="game-icons:drum-kit" />
-            <Icon className='scaling' icon="fad:logo-fl" />
-            <Icon className='scaling' icon="fad:logo-reaper" />
-            <Icon className='scaling' icon="logos:blender" />
+      
+         
+        <div className='home-project-flex'>
+                  <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
+          <div className='skills'>
+            <div className='flex'>
+              <div className = "skill-name">Skateboarding</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="material-symbols:skateboarding-sharp" />        
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+               
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
+       
+            <div className='flex'>
+              <div className = "skill-name">Gaming</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="akar-icons:game-controller" />          
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+               
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
 
-      
-      
-   
-    
-           
-         */}
-    
+            <div className='flex'>
+              <div className = "skill-name">Music Production</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="ri:sound-module-fill" />          
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+               
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <div className = "skill-name">Piano</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="game-icons:grand-piano" />          
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+               
+                <div className='skill-point-off'></div>
+                <div className='skill-point-off'></div>
+              </div>
+            </div>
+
+
+            
+            <div className='flex'>
+              <div className = "skill-name">Monkeys</div>
+              <div className='skill-item space flex'>
+                <Icon className='scaling' icon="emojione-monotone:monkey" />          
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+                <div className="outer-skill-point">
+                  <div className='inner-skill-point'></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </AnimationOnScroll>
+
+        <Card className='grid-item following-card'>
+            <Card.Img variant="top" src={cardimg} />
+            <Card.Body>
+              {/* <a href="#" target="_blank" rel="noreferrer"> */}
+                <Button variant="success">Future Project</Button>
+              {/* </a> */}
+            <Card.Text>
+              ... 
+            </Card.Text>
+            </Card.Body>
+          </Card>
+      </div>
     </div>
   
-
-
-    <h1 className='header header-resume'>Resume</h1>
-      <div className='tst'>
-        <div className='resume-flex'>
-          <div>
-            <div className='resume1'>
-              <img className = 'img-thumbnail' src = {resume1} alt = "profile"></img>
-            </div>
-            <div className='resume1'>
-              <img className = 'img-thumbnail' src = {resume2} alt = "profile"></img>
-            </div>
-            <div className='resume1'>
-              <img className = 'img-thumbnail' src = {resume3} alt = "profile"></img>
-            </div>
-            <div className='resume1'>
-              <img className = 'img-thumbnail' src = {resume4} alt = "profile"></img>
-            </div>
-          </div>
-          <div>
-            <div className='resume5'>
-              <img className = 'img-thumbnail' src = {resume5} alt = "profile"></img>
-            </div>
-          </div>
-        </div>
-        </div>
-
-
-        <h1 className=' header header-contact'>Contact Me</h1>
-        <div className="resume-flex">
-          <Iframe url="https://docs.google.com/forms/d/e/1FAIpQLSe51-6ZS9nYlR2Itc2u1xJSCoUFK7dVNhr3XXgcPBgOlhCylQ/viewform?embedded=true"
-            width="100%"
-            height="900"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            id=""
-            className="scaled"
-            display="block"
-            position="relative"/>
-            <div className="contact-me-info">Contact me! I'm open to work and personal collaboration.</div>
-        </div>
-  
+      <Resume></Resume>
+      <Contact></Contact>
   </div> 
   );  
 }

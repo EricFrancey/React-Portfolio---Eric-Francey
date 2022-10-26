@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .test-bg {
     background-color: rgb(248, 4, 4);
@@ -98,7 +99,7 @@
     margin-top: 5em;
     color: white;
     font-family: 'Rubik Dirt', cursive;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .info-block {
@@ -112,20 +113,18 @@
     margin-top: 1em;
     color: rgb(51, 18, 236);
     font-family: 'Rubik Dirt', cursive;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .eric-info-under {
     color:white;
     font-family: 'Press Start 2P', cursive;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
-
-
 
 .skill-points-available {
     width: 100%;
@@ -133,7 +132,7 @@
     color:white;
     font-family: 'Press Start 2P', cursive;
     display:flex;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -173,24 +172,26 @@
 .skills {
     border: 5px solid rgb(63, 63, 63);
     border-radius: 20px;
-    background-color: #353535;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    padding-right:5rem;
-    padding-left:5rem;
+    background-color: #272727;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-right:1rem;
+    padding-left:1rem;
+    width: 30rem;
 }
 
 .skill-item {
-    border: 5px solid rgb(23, 34, 131);
-    border-radius: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
     background-color: #888888;
     float:right;
 }
 
 .skill-name {
-    color: red;
-    padding-top: 3rem;
-    float:left;
+    color:whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding-top: 2rem;
 }
 
 .skill-point-flex {
@@ -200,7 +201,6 @@
 }
 
 .skills-blurb {
-    /* height: 100%; */
     width: 100%;
     background-color: gray;
     border: 5px solid black;
@@ -214,18 +214,19 @@
 
 .skills-title {
     font-family: 'Press Start 2P', cursive;
-    text-align: right;
+    text-align: left;
     background-color: gray;
     border: 5px solid rgb(61, 2, 117);
     border-radius:30px;
     color: rgb(51, 18, 236);
     font-size: 16px;
     left: 0px;
-    margin-top: 3rem;
-    margin-left: 30rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 6rem;
+    margin-left: 7rem;
+    margin-right: 50rem;
+    margin-bottom: 3rem;
     padding-right: 20px;
+    padding-left: 2rem;
 }
 .skills-title-under {
 
@@ -247,12 +248,15 @@
     font-size: 8px;
     float: left;
     margin-left: -400px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(0,81,176,1) 30%, rgba(9,47,121,0.7539390756302521) 100%);
+
+    /* turn on to work in progress styling */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(0,81,176,1) 30%, rgba(9,47,121,0.7539390756302521) 100%); */
     -moz-transform:    scaleX(-1); /* Gecko */
     -o-transform:      scaleX(-1); /* Opera */
     -webkit-transform: scaleX(-1); /* Webkit */
     transform:         scaleX(-1); /* Standard */
     filter: FlipH;                 /* IE 6/7/8 */
+    
 }
 .skill-after::after {
     color:white;
@@ -286,26 +290,18 @@
 .scaling {
     height:2rem;
     width:2rem;
-    margin-right:10%
+    margin-right:0.5rem;
+    margin-left: 0.5rem
 }
 
 .scrolldown {
-    padding: 10rem 10rem 10rem 10rem;
+    padding: 10rem 5rem 10rem 5rem;
     border-top: 5px dashed white;
     background-image: url("https://images.pexels.com/photos/10649075/pexels-photo-10649075.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.dot {
-    height: 18px;
-    width: 18px;
-    background-color: rgb(29, 105, 6);
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 2px
 }
 
 .flex {
@@ -501,7 +497,7 @@ flex-direction: row;
 
     .contact-me-info {
         margin-top: 1px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .skills-title {

@@ -1,8 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import githubCardImg from "../.././assets/github2.jpg";
-import cardimg from "../.././assets/fogbeach.png"
 import rhythmCard from "../.././assets/rhythmrocks.jpg";
 import visionCard from "../.././assets/visiontest.jpg"
 import zooCard from "../.././assets/zoologic.jpg";
