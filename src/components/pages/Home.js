@@ -3,8 +3,8 @@ import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Icon } from '@iconify/react';
 import React from 'react';
-import rhythmCard from "../.././assets/rhythmrocks.jpg";
-import visionCard from "../.././assets/visiontest.jpg"
+import rhythmCard from "../.././assets/rhythmrocks.png";
+import visionCard from "../.././assets/visiontest.png"
 import zooCard from "../.././assets/zoologic.jpg";
 import cardimg from "../.././assets/fogbeach.png"
 import Contact from './Contact';
@@ -301,7 +301,7 @@ export default function Home() {
         <Card className='grid-item following-card'>
             <Card.Img variant="top" src={rhythmCard} />
             <Card.Body>
-              <a href="https://ericfrancey.github.io/Rhythm-Finder/" target="_blank" rel="noreferrer">
+              <a href="https://ericfrancey.github.io/Rhythm-Rocks/" target="_blank" rel="noreferrer">
                 <Button variant="success">Rhythm Rocks</Button>
               </a>
             <Card.Text>
@@ -637,7 +637,7 @@ export default function Home() {
         <Card className='grid-item following-card'>
             <Card.Img variant="top" src={visionCard} />
             <Card.Body>
-              <a href="https://ericfrancey.github.io/drag-drop-photo-editor/" target="_blank" rel="noreferrer">
+              <a href="https://ericfrancey.github.io/Vision-Test/" target="_blank" rel="noreferrer">
                 <Button variant="success">Vision Test</Button>
               </a>
             <Card.Text>

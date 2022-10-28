@@ -18,7 +18,7 @@
 }
 
 .showing {
-    display: block
+    display: block;
 }
 
 .player-button {
@@ -42,8 +42,7 @@
    border-color: black;
    border-style: solid;
    border-radius: 4%;
-   background: rgb(255,255,255);
-   background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgba(0,0,0,1) 30%, rgba(16,22,33,0.7539390756302521) 100%);
+   background-color: black;
    width: 100%
 }
 

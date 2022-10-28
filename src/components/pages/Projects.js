@@ -1,9 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React, { useState } from 'react';
-import githubCardImg from "../.././assets/github2.jpg";
-import rhythmCard from "../.././assets/rhythmrocks.jpg";
-import visionCard from "../.././assets/visiontest.jpg"
+import githubCardImg from "../.././assets/github.png";
+import rhythmCard from "../.././assets/rhythmrocks.png";
+import visionCard from "../.././assets/visiontest.png"
 import zooCard from "../.././assets/zoologic.jpg";
 
 export default function Projects() {
@@ -15,7 +15,7 @@ export default function Projects() {
       <h1 className='header header-projects'>Projects</h1>
       
       <div onClick={toggleCurious} className = "not-curious">Sharp eye! Click me!</div>
-      <div className='grid-container'>
+      <div className='grid-container project-lineup'>
           <Card className='grid-item top-card invert'>
             <Card.Img variant="top" src={githubCardImg} />
             <Card.Body>
@@ -32,7 +32,7 @@ export default function Projects() {
           <Card className='grid-item following-card'>
             <Card.Img variant="top" src={rhythmCard} />
             <Card.Body>
-              <a href="https://ericfrancey.github.io/Rhythm-Finder/" target="_blank" rel="noreferrer">
+              <a href="https://ericfrancey.github.io/Rhythm-Rocks/" target="_blank" rel="noreferrer">
                 <Button variant="success">Rhythm Rocks</Button>
               </a>
             <Card.Text>
@@ -44,7 +44,7 @@ export default function Projects() {
           <Card className='grid-item following-card'>
             <Card.Img variant="top" src={visionCard} />
             <Card.Body>
-              <a href="https://ericfrancey.github.io/drag-drop-photo-editor/" target="_blank" rel="noreferrer">
+              <a href="https://ericfrancey.github.io/Vision-Test/" target="_blank" rel="noreferrer">
                 <Button variant="success">Vision Test</Button>
               </a>
             <Card.Text>

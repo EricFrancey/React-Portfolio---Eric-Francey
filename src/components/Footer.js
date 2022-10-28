@@ -1,7 +1,6 @@
 import React from 'react';
 import "./playerStyle.css";
 import { Icon } from '@iconify/react';
-import Button from 'react-bootstrap/Button';
 
 function Footer() {
 
@@ -10,7 +9,7 @@ function Footer() {
             <a href="https://github.com/ericfrancey" target="_blank" rel="noreferrer">
                 <Icon className='socials-icon' icon="akar-icons:github-fill" ></Icon>
             </a>
-            <a href="https://github.com/ericfrancey" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/eric-francey-680971149/" target="_blank" rel="noreferrer">
                 <Icon className = 'socials-icon' icon="akar-icons:linkedin-box-fill" />
             </a>
         </div>

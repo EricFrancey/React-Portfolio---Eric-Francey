@@ -94,11 +94,11 @@ function Player() {
         
         <div className={isRocks ? "showing rocks-button" : "hidden"}>
           <div className="resume-flex">
-            <Iframe url="https://ericfrancey.github.io/Rhythm-Finder/"
+            <Iframe url="https://ericfrancey.github.io/Rhythm-Rocks/"
               width="32%"
               height="844px"
               id=""
-              className="scaled"
+              className="rocks-iframe"
               display="block"
               position="relative"/>
             <div className="player-rocks-info"> Rhythm Rocks! View this project's repo on the projects tab.</div>

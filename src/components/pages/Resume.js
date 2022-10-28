@@ -1,10 +1,10 @@
 import React from 'react';
 
-const resume1 = require('../../assets/resume1.jpg');
-const resume2 = require('../../assets/resume2.jpg');
-const resume3 = require('../../assets/resume3.jpg');
-const resume4 = require('../../assets/resume4.jpg');
-const resume5 = require('../../assets/resume5.jpg');
+const resume1 = require('../../assets/resume1.png');
+const resume2 = require('../../assets/resume2.png');
+const resume3 = require('../../assets/resume3.png');
+const resume4 = require('../../assets/resume4.png');
+
 
 export default function Resume() {
   return (
@@ -22,13 +22,10 @@ export default function Resume() {
             <div className='resume1'>
               <img className = 'img-thumbnail' src = {resume3} alt = "profile"></img>
             </div>
-            <div className='resume1'>
-              <img className = 'img-thumbnail' src = {resume4} alt = "profile"></img>
-            </div>
           </div>
           <div>
             <div className='resume5'>
-              <img className = 'img-thumbnail' src = {resume5} alt = "profile"></img>
+              <img className = 'img-thumbnail' src = {resume4} alt = "profile"></img>
             </div>
           </div>
         </div>
