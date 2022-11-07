@@ -777,8 +777,6 @@ export default function Home() {
               </div>
             </div>
 
-
-            
             <div className='flex'>
               <div className = "skill-name">GraphQL</div>
               <div className='skill-item space flex'>
@@ -810,7 +808,7 @@ export default function Home() {
             </div>
 
             <div className='flex'>
-              <div className = "skill-name">MondoDB</div>
+              <div className = "skill-name">MongoDB</div>
               <div className='skill-item space flex'>
                 <Icon className='scaling' icon="logos:mongodb" />         
                 <div className="outer-skill-point">
@@ -881,7 +879,7 @@ export default function Home() {
                 <Button variant="success">ZooLogic</Button>
               </a>
             <Card.Text>
-              Designed to help conservation and documentation efforts. A full-stack application built with React.js and GraphQL. 
+              (In Progress) Designed to help conservation and documentation efforts. A full-stack application built with React.js and GraphQL. 
             </Card.Text>
             </Card.Body>
           </Card>

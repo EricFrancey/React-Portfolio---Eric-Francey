@@ -60,7 +60,7 @@ export default function Projects() {
                 <Button variant="success">ZooLogic</Button>
               </a>
             <Card.Text>
-              Designed to help conservation and documentation efforts. A full-stack application built with React.js and GraphQL. 
+            (In Progress) Designed to help conservation and documentation efforts. A full-stack application built with React.js and GraphQL. 
             </Card.Text>
             </Card.Body>
           </Card>

@@ -294,8 +294,8 @@
 .scaling {
     height:2rem;
     width:2rem;
-    margin-right:0.5rem;
-    margin-left: 0.5rem
+    /* margin-right:0.5rem;
+    margin-left: 0.5rem */
 }
 
 .scrolldown {
@@ -412,8 +412,7 @@
 
 .following-card {
     width: 18rem;
-    height: 28rem
-
+    height: 30rem
 }
 .curious {
     -moz-transform:    scaleX(-1); /* Gecko */
