@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.8159ed37.css",
-    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.4a566f36.js",
+    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.68dcff48.css",
+    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.ab305c9c.js",
     "static/media/fogbeach.png": "/React-Portfolio---Eric-Francey/static/media/fogbeach.a247b471f3f382419476.png",
     "static/media/profilephoto.jpg": "/React-Portfolio---Eric-Francey/static/media/profilephoto.07c06147d04268d15680.jpg",
     "static/media/github.png": "/React-Portfolio---Eric-Francey/static/media/github.c61050de4b7e88e3f237.png",
@@ -13,11 +13,11 @@
     "static/media/resume4.png": "/React-Portfolio---Eric-Francey/static/media/resume4.2da5d51aa57caa5e26fb.png",
     "static/media/resume2.png": "/React-Portfolio---Eric-Francey/static/media/resume2.fe3e7dd7d7d23502be51.png",
     "index.html": "/React-Portfolio---Eric-Francey/index.html",
-    "main.8159ed37.css.map": "/React-Portfolio---Eric-Francey/static/css/main.8159ed37.css.map",
-    "main.4a566f36.js.map": "/React-Portfolio---Eric-Francey/static/js/main.4a566f36.js.map"
+    "main.68dcff48.css.map": "/React-Portfolio---Eric-Francey/static/css/main.68dcff48.css.map",
+    "main.ab305c9c.js.map": "/React-Portfolio---Eric-Francey/static/js/main.ab305c9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8159ed37.css",
-    "static/js/main.4a566f36.js"
+    "static/css/main.68dcff48.css",
+    "static/js/main.ab305c9c.js"
   ]
 }
