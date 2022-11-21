@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.d8307872.css",
-    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.2367bd70.js",
+    "main.css": "/React-Portfolio---Eric-Francey/static/css/main.9bceda85.css",
+    "main.js": "/React-Portfolio---Eric-Francey/static/js/main.aeecb4fb.js",
     "static/media/fogbeach.png": "/React-Portfolio---Eric-Francey/static/media/fogbeach.a247b471f3f382419476.png",
     "static/media/profilephoto.jpg": "/React-Portfolio---Eric-Francey/static/media/profilephoto.07c06147d04268d15680.jpg",
     "static/media/github.png": "/React-Portfolio---Eric-Francey/static/media/github.c61050de4b7e88e3f237.png",
@@ -9,11 +9,11 @@
     "static/media/visiontest.png": "/React-Portfolio---Eric-Francey/static/media/visiontest.a98dd5de39fd6c4a00ea.png",
     "static/media/rhythmrocks.png": "/React-Portfolio---Eric-Francey/static/media/rhythmrocks.bad8382711d8cd7c9245.png",
     "index.html": "/React-Portfolio---Eric-Francey/index.html",
-    "main.d8307872.css.map": "/React-Portfolio---Eric-Francey/static/css/main.d8307872.css.map",
-    "main.2367bd70.js.map": "/React-Portfolio---Eric-Francey/static/js/main.2367bd70.js.map"
+    "main.9bceda85.css.map": "/React-Portfolio---Eric-Francey/static/css/main.9bceda85.css.map",
+    "main.aeecb4fb.js.map": "/React-Portfolio---Eric-Francey/static/js/main.aeecb4fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8307872.css",
-    "static/js/main.2367bd70.js"
+    "static/css/main.9bceda85.css",
+    "static/js/main.aeecb4fb.js"
   ]
 }
