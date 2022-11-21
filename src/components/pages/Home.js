@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div className=''>
             <div className="eric-info"> Hey! I'm Eric! Check out my projects page, or scroll down to learn more about me.</div>
-            <div className='eric-info-under'>&emsp;  This character is skilled in CSS, JavaScript, Node, React, Bootstrap, and GraphQL with experience implementing many front-end and back-end development frameworks and libraries.</div>
+            <div className='eric-info-under'>&emsp;  Skilled in CSS, JavaScript, Node, React, Bootstrap, and GraphQL with experience implementing many front-end and back-end development frameworks and libraries.</div>
             <div className = "eric-info-under">Minor Skills: Psychology, Charisma, Lion Whispering, FL Studio, Reaper, Python.</div>
             <div className = "eric-info-under">Special Ability: equilibrioception</div>
             <div className = "eric-info-under">Weakness: deuteranopia</div>

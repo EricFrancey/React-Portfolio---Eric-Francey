@@ -348,34 +348,6 @@
     flex-direction:row;
 }
 
-.resume1 {
-    margin-left: 10em;
-    transition:all 1s ease-in
-}
-
-.resume1:hover{
-    transform: translate(-1rem, -1rem);
-    filter:invert(10%);
-    transition:all 0.5s ease-in
-}
-
-.resume4 {
-    z-index: 2;
-}
-
-.resume5 {
-    margin-left:5rem;
-    transition:all 0.5s ease-in
-}
-
-.resume5:hover {
-    transform: translate(-18rem, 12rem) scale(1.75);
-    transition:all 1s ease-in;
-    border-style:groove;
-    border-color: black;
-    box-shadow: 5px 10px #888888;
-}
-
 /*projects*/
 .project-lineup {
     /* margin-top: 2rem;
@@ -493,14 +465,6 @@
     .resume-flex {
         flex-direction: column;
         display:block;
-    }
-
-    .resume1 {
-        margin-left:1px
-    }
-
-    .resume5 {
-        margin-left:1px
     }
 
     .contact-me-info {
