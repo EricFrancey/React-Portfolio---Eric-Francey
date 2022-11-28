@@ -63,12 +63,12 @@ export default function Home() {
        <div className='eric-info-under'>&emsp;  A little about me: I like to make music, skateboard, game and code. I have recently begun my professional programming career, and I intend to have a long and interwoven experience with the coming decades of software development. Prior to web development, I spent years as a professional tour guide, speaker and salesperson across Ontario. </div>
         
       
-        <AnimationOnScroll animateIn="animate__backInRight">
+        <AnimationOnScroll animateIn="animate__backInRight" duration="0.2">
           <div className="skills-title"> Work and Education <div className='skills-title-under'>&emsp; I come from a background in psychology, sales and tourism. These days, I spend my time reading and writing code. I'm open to freelance work and collaborative personal projects.</div></div>
         </AnimationOnScroll>
 
         <div className='home-project-flex'>
-        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft" duration="0.5">
         <div className='skills'>
             <div className='flex'>
               <div className = "skill-name">Psychology</div>
@@ -311,12 +311,12 @@ export default function Home() {
         </Card>
           </div>
 
-        <AnimationOnScroll animateIn="animate__backInRight">
+        <AnimationOnScroll animateIn="animate__backInRight" duration="0.2">
           <div className="skills-title"> Languages & Tools <div className='skills-title-under'>&emsp; Though some are more familiar than others, I like to use a variety of avenues to get the job done. What do you suggest?</div></div>
         </AnimationOnScroll>
 
         <div className='home-project-flex'>
-        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
+        <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft" duration="0.5">
           <div className='skills'>
             <div className='flex'>
               <div className = "skill-name">HTML</div>
@@ -648,12 +648,12 @@ export default function Home() {
 </div>
     
 
-        <AnimationOnScroll animateIn="animate__backInRight">
+        <AnimationOnScroll animateIn="animate__backInRight" duration="0.2">
           <div className="skills-title"> Libraries & Frameworks <div className='skills-title-under'>&emsp; It's important to keep up with the latest and greatest. For now, I have a focus on React and GraphQL. </div></div>
         </AnimationOnScroll>
 
         <div className='home-project-flex'>
-                  <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
+                  <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft" duration="0.5">
           <div className='skills'>
             <div className='flex'>
               <div className = "skill-name">Bootstrap</div>
@@ -884,13 +884,13 @@ export default function Home() {
             </Card.Body>
           </Card>
 </div>
-        <AnimationOnScroll animateIn="animate__backInRight">
+        <AnimationOnScroll animateIn="animate__backInRight" duration="0.2">
           <div className="skills-title"> Hobbies & Interests <div className='skills-title-under'>&emsp; Always learning and doing something new. Recently, I've been trying to polish my skills in piano and music production. I make cool video game music and hip-hop beats!</div></div>
         </AnimationOnScroll>
       
          
         <div className='home-project-flex'>
-                  <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft">
+                  <AnimationOnScroll className='skill-before' animateIn="animate__backInLeft" duration="0.5">
           <div className='skills'>
             <div className='flex'>
               <div className = "skill-name">Skateboarding</div>
